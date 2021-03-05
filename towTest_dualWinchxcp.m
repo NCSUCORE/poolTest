@@ -22,8 +22,12 @@ xcp.events(3).sampletime = 0.5;
 xcp.events(3).offset     = 0.25;
          
 xcp.events(4).id         = 3;
-xcp.events(4).sampletime = -1.0;
-xcp.events(4).offset     = -2.0;
+xcp.events(4).sampletime = 1.0;
+xcp.events(4).offset     = 0.5;
+         
+xcp.events(5).id         = 4;
+xcp.events(5).sampletime = -1.0;
+xcp.events(5).offset     = -2.0;
     
 xcp.signals(1).symbol =  'towTest_dualWinch_B.SpoolingDirection';
     
@@ -2067,7 +2071,7 @@ function n = getNumSignals
 n = 130;
 
 function n = getNumEvents
-n = 4;
+n = 5;
 
 function n = getNumModels
 n = 1;

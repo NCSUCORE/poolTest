@@ -420,6 +420,13 @@
 
 		</SubSystem>
 		<SubSystem>
+		<Name>Scope 6</Name>
+		<xPCName>towTest_dualWinch/Scope 6</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
 		<Name>Send Receive (v3) </Name>
 		<xPCName>towTest_dualWinch/Send Receive (v3) </xPCName>
 				<SubSystem>
