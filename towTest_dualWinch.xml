@@ -2794,6 +2794,17 @@ Function</sigName>
           </parameter>
           </block>
             <block>
+            <blkName>CouplingOnOff</blkName>
+            <xpcblkName>CouplingOnOff</xpcblkName>
+            <SLblockPath>towTest_dualWinch/CouplingOnOff</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch</SubSystemName>
+          </parameter>
+          </block>
+            <block>
             <blkName>RPM to Voltage</blkName>
             <xpcblkName>RPM to Voltage</xpcblkName>
             <SLblockPath>towTest_dualWinch/RPM to Voltage</SLblockPath>
@@ -3465,6 +3476,16 @@ Function</sigName>
               <signal>
               <sigName>Adjustment Gain2</sigName>
               <xpcsigName>Adjustment Gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>CouplingOnOff</sigName>
+              <xpcsigName>CouplingOnOff</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
 			  <SubSystemName>towTest_dualWinch</SubSystemName>
