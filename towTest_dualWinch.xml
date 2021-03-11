@@ -3,29 +3,8 @@
 		<Name>LAS Calculation </Name>
 		<xPCName>towTest_dualWinch/LAS Calculation </xPCName>
 				<SubSystem>
-		<Name>Scope 1</Name>
-		<xPCName>towTest_dualWinch/LAS Calculation /Scope 1</xPCName>
-		
-		
-
-		</SubSystem>
-		<SubSystem>
-		<Name>Scope 2</Name>
-		<xPCName>towTest_dualWinch/LAS Calculation /Scope 2</xPCName>
-		
-		
-
-		</SubSystem>
-		<SubSystem>
 		<Name>Scope 3</Name>
 		<xPCName>towTest_dualWinch/LAS Calculation /Scope 3</xPCName>
-		
-		
-
-		</SubSystem>
-		<SubSystem>
-		<Name>Scope 4</Name>
-		<xPCName>towTest_dualWinch/LAS Calculation /Scope 4</xPCName>
 		
 		
 
@@ -512,8 +491,22 @@
 
 		</SubSystem>
 		<SubSystem>
+		<Name>Scope 2</Name>
+		<xPCName>towTest_dualWinch/Scope 2</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
 		<Name>Scope 3</Name>
 		<xPCName>towTest_dualWinch/Scope 3</xPCName>
+		
+		
+
+		</SubSystem>
+		<SubSystem>
+		<Name>Scope 4</Name>
+		<xPCName>towTest_dualWinch/Scope 4</xPCName>
 		
 		
 
@@ -3479,17 +3472,6 @@ Function</sigName>
 		  <SubSystemName>towTest_dualWinch</SubSystemName>
           </parameter>
           </block>
-            <block>
-            <blkName>Manual Switch</blkName>
-            <xpcblkName>Manual Switch</xpcblkName>
-            <SLblockPath>towTest_dualWinch/Manual Switch</SLblockPath>
-            <isSrc>[0 2 1]</isSrc>
-          <parameter>
-          <paramName>CurrentSetting</paramName>
-          <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch</SubSystemName>
-          </parameter>
-          </block>
 			  
 			  
               <signal>
@@ -3513,48 +3495,8 @@ Function</sigName>
 			  
 			  
               <signal>
-              <sigName>Cast To Double1</sigName>
-              <xpcsigName>Cast To Double1</xpcsigName>
-              <sigWidth>1</sigWidth>
-              <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch</SubSystemName>
-			  <sigTestPoint>false</sigTestPoint>
-            </signal>
-			  
-			  
-              <signal>
-              <sigName>Cast To Double2</sigName>
-              <xpcsigName>Cast To Double2</xpcsigName>
-              <sigWidth>1</sigWidth>
-              <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch</SubSystemName>
-			  <sigTestPoint>false</sigTestPoint>
-            </signal>
-			  
-			  
-              <signal>
-              <sigName>Cast To Double3</sigName>
-              <xpcsigName>Cast To Double3</xpcsigName>
-              <sigWidth>1</sigWidth>
-              <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch</SubSystemName>
-			  <sigTestPoint>false</sigTestPoint>
-            </signal>
-			  
-			  
-              <signal>
               <sigName>Cast To Double4</sigName>
               <xpcsigName>Cast To Double4</xpcsigName>
-              <sigWidth>1</sigWidth>
-              <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch</SubSystemName>
-			  <sigTestPoint>false</sigTestPoint>
-            </signal>
-			  
-			  
-              <signal>
-              <sigName>Derivative</sigName>
-              <xpcsigName>Derivative</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
 			  <SubSystemName>towTest_dualWinch</SubSystemName>
@@ -3906,26 +3848,6 @@ Function</sigName>
               <signal>
               <sigName>Switch3</sigName>
               <xpcsigName>Switch3</xpcsigName>
-              <sigWidth>1</sigWidth>
-              <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch</SubSystemName>
-			  <sigTestPoint>false</sigTestPoint>
-            </signal>
-			  
-			  
-              <signal>
-              <sigName>Manual Switch</sigName>
-              <xpcsigName>Manual Switch</xpcsigName>
-              <sigWidth>1</sigWidth>
-              <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch</SubSystemName>
-			  <sigTestPoint>false</sigTestPoint>
-            </signal>
-			  
-			  
-              <signal>
-              <sigName>Lowpass Filter</sigName>
-              <xpcsigName>Lowpass Filter</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
 			  <SubSystemName>towTest_dualWinch</SubSystemName>
