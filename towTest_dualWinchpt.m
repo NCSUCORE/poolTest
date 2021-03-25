@@ -566,7 +566,7 @@ pt(35).dtname     = 'real_T';
 pt(36).blockname = 'FIFO ASCII read 2';
 pt(36).paramname = 'P4';
 pt(36).class     = 'vector';
-pt(36).nrows     = 4;
+pt(36).nrows     = 6;
 pt(36).ncols     = 1;
 pt(36).subsource = 'SS_DOUBLE';
 pt(36).ndims     = '2';
@@ -583,7 +583,7 @@ pt(37).blockname = 'FIFO ASCII read 2';
 pt(37).paramname = 'P5';
 pt(37).class     = 'vector';
 pt(37).nrows     = 1;
-pt(37).ncols     = 4;
+pt(37).ncols     = 6;
 pt(37).subsource = 'SS_DOUBLE';
 pt(37).ndims     = '2';
 pt(37).size      = '[]';
@@ -3907,8 +3907,8 @@ pt(244).dtname     = 'real_T';
 
 
   
-pt(245).blockname = 'Stop Sequence /Sample and Hold/ ';
-pt(245).paramname = 'InitialOutput';
+pt(245).blockname = 'Tension Calculation/Gain';
+pt(245).paramname = 'Gain';
 pt(245).class     = 'scalar';
 pt(245).nrows     = 1;
 pt(245).ncols     = 1;
@@ -3916,15 +3916,15 @@ pt(245).subsource = 'SS_DOUBLE';
 pt(245).ndims     = '2';
 pt(245).size      = '[]';
 pt(245).isStruct  = false;
-pt(245).symbol     = 'towTest_dualWinch_P.SampleandHold._Y0';
-pt(245).baseaddr   = '&towTest_dualWinch_P.SampleandHold._Y0';
+pt(245).symbol     = 'towTest_dualWinch_P.Gain_Gain_g';
+pt(245).baseaddr   = '&towTest_dualWinch_P.Gain_Gain_g';
 pt(245).dtname     = 'real_T';
 
 
 
   
-pt(246).blockname = 'Stop Sequence /Sample and Hold1/ ';
-pt(246).paramname = 'InitialOutput';
+pt(246).blockname = 'Tension Calculation/Gain1';
+pt(246).paramname = 'Gain';
 pt(246).class     = 'scalar';
 pt(246).nrows     = 1;
 pt(246).ncols     = 1;
@@ -3932,15 +3932,15 @@ pt(246).subsource = 'SS_DOUBLE';
 pt(246).ndims     = '2';
 pt(246).size      = '[]';
 pt(246).isStruct  = false;
-pt(246).symbol     = 'towTest_dualWinch_P.SampleandHold1._Y0';
-pt(246).baseaddr   = '&towTest_dualWinch_P.SampleandHold1._Y0';
+pt(246).symbol     = 'towTest_dualWinch_P.Gain1_Gain_k';
+pt(246).baseaddr   = '&towTest_dualWinch_P.Gain1_Gain_k';
 pt(246).dtname     = 'real_T';
 
 
 
   
-pt(247).blockname = 'Stop Sequence 2/Sample and Hold/ ';
-pt(247).paramname = 'InitialOutput';
+pt(247).blockname = 'Tension Calculation/Gain2';
+pt(247).paramname = 'Gain';
 pt(247).class     = 'scalar';
 pt(247).nrows     = 1;
 pt(247).ncols     = 1;
@@ -3948,15 +3948,15 @@ pt(247).subsource = 'SS_DOUBLE';
 pt(247).ndims     = '2';
 pt(247).size      = '[]';
 pt(247).isStruct  = false;
-pt(247).symbol     = 'towTest_dualWinch_P.SampleandHold_g._Y0';
-pt(247).baseaddr   = '&towTest_dualWinch_P.SampleandHold_g._Y0';
+pt(247).symbol     = 'towTest_dualWinch_P.Gain2_Gain_j';
+pt(247).baseaddr   = '&towTest_dualWinch_P.Gain2_Gain_j';
 pt(247).dtname     = 'real_T';
 
 
 
   
-pt(248).blockname = 'Stop Sequence 2/Sample and Hold1/ ';
-pt(248).paramname = 'InitialOutput';
+pt(248).blockname = 'Tension Calculation/Gain3';
+pt(248).paramname = 'Gain';
 pt(248).class     = 'scalar';
 pt(248).nrows     = 1;
 pt(248).ncols     = 1;
@@ -3964,31 +3964,31 @@ pt(248).subsource = 'SS_DOUBLE';
 pt(248).ndims     = '2';
 pt(248).size      = '[]';
 pt(248).isStruct  = false;
-pt(248).symbol     = 'towTest_dualWinch_P.SampleandHold1_i._Y0';
-pt(248).baseaddr   = '&towTest_dualWinch_P.SampleandHold1_i._Y0';
+pt(248).symbol     = 'towTest_dualWinch_P.Gain3_Gain_j';
+pt(248).baseaddr   = '&towTest_dualWinch_P.Gain3_Gain_j';
 pt(248).dtname     = 'real_T';
 
 
 
   
-pt(249).blockname = 'TriangleWave/Model/Constant2';
-pt(249).paramname = 'Value';
-pt(249).class     = 'scalar';
+pt(249).blockname = 'Tension Calculation/ASCII Decode 1';
+pt(249).paramname = 'P1';
+pt(249).class     = 'vector';
 pt(249).nrows     = 1;
-pt(249).ncols     = 1;
+pt(249).ncols     = 5;
 pt(249).subsource = 'SS_DOUBLE';
 pt(249).ndims     = '2';
 pt(249).size      = '[]';
 pt(249).isStruct  = false;
-pt(249).symbol     = 'towTest_dualWinch_P.Constant2_Value';
-pt(249).baseaddr   = '&towTest_dualWinch_P.Constant2_Value';
+pt(249).symbol     = 'towTest_dualWinch_P.ASCIIDecode1_P1_e';
+pt(249).baseaddr   = '&towTest_dualWinch_P.ASCIIDecode1_P1_e[0]';
 pt(249).dtname     = 'real_T';
 
 
 
   
-pt(250).blockname = 'TriangleWave/Model/Constant3';
-pt(250).paramname = 'Value';
+pt(250).blockname = 'Tension Calculation/ASCII Decode 1';
+pt(250).paramname = 'P2';
 pt(250).class     = 'scalar';
 pt(250).nrows     = 1;
 pt(250).ncols     = 1;
@@ -3996,15 +3996,15 @@ pt(250).subsource = 'SS_DOUBLE';
 pt(250).ndims     = '2';
 pt(250).size      = '[]';
 pt(250).isStruct  = false;
-pt(250).symbol     = 'towTest_dualWinch_P.Constant3_Value';
-pt(250).baseaddr   = '&towTest_dualWinch_P.Constant3_Value';
+pt(250).symbol     = 'towTest_dualWinch_P.ASCIIDecode1_P2_d';
+pt(250).baseaddr   = '&towTest_dualWinch_P.ASCIIDecode1_P2_d';
 pt(250).dtname     = 'real_T';
 
 
 
   
-pt(251).blockname = 'TriangleWave/Model/Constant4';
-pt(251).paramname = 'Value';
+pt(251).blockname = 'Tension Calculation/ASCII Decode 1';
+pt(251).paramname = 'P3';
 pt(251).class     = 'scalar';
 pt(251).nrows     = 1;
 pt(251).ncols     = 1;
@@ -4012,63 +4012,63 @@ pt(251).subsource = 'SS_DOUBLE';
 pt(251).ndims     = '2';
 pt(251).size      = '[]';
 pt(251).isStruct  = false;
-pt(251).symbol     = 'towTest_dualWinch_P.Constant4_Value';
-pt(251).baseaddr   = '&towTest_dualWinch_P.Constant4_Value';
+pt(251).symbol     = 'towTest_dualWinch_P.ASCIIDecode1_P3_o';
+pt(251).baseaddr   = '&towTest_dualWinch_P.ASCIIDecode1_P3_o';
 pt(251).dtname     = 'real_T';
 
 
 
   
-pt(252).blockname = 'TriangleWave/Model/1\ib1';
-pt(252).paramname = 'Gain';
-pt(252).class     = 'scalar';
+pt(252).blockname = 'Tension Calculation/ASCII Decode 4';
+pt(252).paramname = 'P1';
+pt(252).class     = 'vector';
 pt(252).nrows     = 1;
-pt(252).ncols     = 1;
+pt(252).ncols     = 5;
 pt(252).subsource = 'SS_DOUBLE';
 pt(252).ndims     = '2';
 pt(252).size      = '[]';
 pt(252).isStruct  = false;
-pt(252).symbol     = 'towTest_dualWinch_P.uib1_Gain';
-pt(252).baseaddr   = '&towTest_dualWinch_P.uib1_Gain';
+pt(252).symbol     = 'towTest_dualWinch_P.ASCIIDecode4_P1_l';
+pt(252).baseaddr   = '&towTest_dualWinch_P.ASCIIDecode4_P1_l[0]';
 pt(252).dtname     = 'real_T';
 
 
 
   
-pt(253).blockname = 'TriangleWave/Model/1-D Lookup Table';
-pt(253).paramname = 'Table';
-pt(253).class     = 'vector';
+pt(253).blockname = 'Tension Calculation/ASCII Decode 4';
+pt(253).paramname = 'P2';
+pt(253).class     = 'scalar';
 pt(253).nrows     = 1;
-pt(253).ncols     = 3;
+pt(253).ncols     = 1;
 pt(253).subsource = 'SS_DOUBLE';
 pt(253).ndims     = '2';
 pt(253).size      = '[]';
 pt(253).isStruct  = false;
-pt(253).symbol     = 'towTest_dualWinch_P.uDLookupTable_tableData';
-pt(253).baseaddr   = '&towTest_dualWinch_P.uDLookupTable_tableData[0]';
+pt(253).symbol     = 'towTest_dualWinch_P.ASCIIDecode4_P2_n';
+pt(253).baseaddr   = '&towTest_dualWinch_P.ASCIIDecode4_P2_n';
 pt(253).dtname     = 'real_T';
 
 
 
   
-pt(254).blockname = 'TriangleWave/Model/1-D Lookup Table';
-pt(254).paramname = 'BreakpointsForDimension1';
-pt(254).class     = 'vector';
+pt(254).blockname = 'Tension Calculation/ASCII Decode 4';
+pt(254).paramname = 'P3';
+pt(254).class     = 'scalar';
 pt(254).nrows     = 1;
-pt(254).ncols     = 3;
+pt(254).ncols     = 1;
 pt(254).subsource = 'SS_DOUBLE';
 pt(254).ndims     = '2';
 pt(254).size      = '[]';
 pt(254).isStruct  = false;
-pt(254).symbol     = 'towTest_dualWinch_P.uDLookupTable_bp01Data';
-pt(254).baseaddr   = '&towTest_dualWinch_P.uDLookupTable_bp01Data[0]';
+pt(254).symbol     = 'towTest_dualWinch_P.ASCIIDecode4_P3_m';
+pt(254).baseaddr   = '&towTest_dualWinch_P.ASCIIDecode4_P3_m';
 pt(254).dtname     = 'real_T';
 
 
 
   
-pt(255).blockname = 'TriangleWave/Model/Unit Delay';
-pt(255).paramname = 'InitialCondition';
+pt(255).blockname = 'Stop Sequence /Sample and Hold/ ';
+pt(255).paramname = 'InitialOutput';
 pt(255).class     = 'scalar';
 pt(255).nrows     = 1;
 pt(255).ncols     = 1;
@@ -4076,15 +4076,15 @@ pt(255).subsource = 'SS_DOUBLE';
 pt(255).ndims     = '2';
 pt(255).size      = '[]';
 pt(255).isStruct  = false;
-pt(255).symbol     = 'towTest_dualWinch_P.UnitDelay_InitialCondition';
-pt(255).baseaddr   = '&towTest_dualWinch_P.UnitDelay_InitialCondition';
+pt(255).symbol     = 'towTest_dualWinch_P.SampleandHold._Y0';
+pt(255).baseaddr   = '&towTest_dualWinch_P.SampleandHold._Y0';
 pt(255).dtname     = 'real_T';
 
 
 
   
-pt(256).blockname = 'TriangleWave2/Model/Constant2';
-pt(256).paramname = 'Value';
+pt(256).blockname = 'Stop Sequence /Sample and Hold1/ ';
+pt(256).paramname = 'InitialOutput';
 pt(256).class     = 'scalar';
 pt(256).nrows     = 1;
 pt(256).ncols     = 1;
@@ -4092,15 +4092,15 @@ pt(256).subsource = 'SS_DOUBLE';
 pt(256).ndims     = '2';
 pt(256).size      = '[]';
 pt(256).isStruct  = false;
-pt(256).symbol     = 'towTest_dualWinch_P.Constant2_Value_j';
-pt(256).baseaddr   = '&towTest_dualWinch_P.Constant2_Value_j';
+pt(256).symbol     = 'towTest_dualWinch_P.SampleandHold1._Y0';
+pt(256).baseaddr   = '&towTest_dualWinch_P.SampleandHold1._Y0';
 pt(256).dtname     = 'real_T';
 
 
 
   
-pt(257).blockname = 'TriangleWave2/Model/Constant3';
-pt(257).paramname = 'Value';
+pt(257).blockname = 'Stop Sequence 2/Sample and Hold/ ';
+pt(257).paramname = 'InitialOutput';
 pt(257).class     = 'scalar';
 pt(257).nrows     = 1;
 pt(257).ncols     = 1;
@@ -4108,15 +4108,15 @@ pt(257).subsource = 'SS_DOUBLE';
 pt(257).ndims     = '2';
 pt(257).size      = '[]';
 pt(257).isStruct  = false;
-pt(257).symbol     = 'towTest_dualWinch_P.Constant3_Value_p';
-pt(257).baseaddr   = '&towTest_dualWinch_P.Constant3_Value_p';
+pt(257).symbol     = 'towTest_dualWinch_P.SampleandHold_g._Y0';
+pt(257).baseaddr   = '&towTest_dualWinch_P.SampleandHold_g._Y0';
 pt(257).dtname     = 'real_T';
 
 
 
   
-pt(258).blockname = 'TriangleWave2/Model/Constant4';
-pt(258).paramname = 'Value';
+pt(258).blockname = 'Stop Sequence 2/Sample and Hold1/ ';
+pt(258).paramname = 'InitialOutput';
 pt(258).class     = 'scalar';
 pt(258).nrows     = 1;
 pt(258).ncols     = 1;
@@ -4124,15 +4124,15 @@ pt(258).subsource = 'SS_DOUBLE';
 pt(258).ndims     = '2';
 pt(258).size      = '[]';
 pt(258).isStruct  = false;
-pt(258).symbol     = 'towTest_dualWinch_P.Constant4_Value_k';
-pt(258).baseaddr   = '&towTest_dualWinch_P.Constant4_Value_k';
+pt(258).symbol     = 'towTest_dualWinch_P.SampleandHold1_i._Y0';
+pt(258).baseaddr   = '&towTest_dualWinch_P.SampleandHold1_i._Y0';
 pt(258).dtname     = 'real_T';
 
 
 
   
-pt(259).blockname = 'TriangleWave2/Model/1\ib1';
-pt(259).paramname = 'Gain';
+pt(259).blockname = 'TriangleWave/Model/Constant2';
+pt(259).paramname = 'Value';
 pt(259).class     = 'scalar';
 pt(259).nrows     = 1;
 pt(259).ncols     = 1;
@@ -4140,47 +4140,47 @@ pt(259).subsource = 'SS_DOUBLE';
 pt(259).ndims     = '2';
 pt(259).size      = '[]';
 pt(259).isStruct  = false;
-pt(259).symbol     = 'towTest_dualWinch_P.uib1_Gain_b';
-pt(259).baseaddr   = '&towTest_dualWinch_P.uib1_Gain_b';
+pt(259).symbol     = 'towTest_dualWinch_P.Constant2_Value';
+pt(259).baseaddr   = '&towTest_dualWinch_P.Constant2_Value';
 pt(259).dtname     = 'real_T';
 
 
 
   
-pt(260).blockname = 'TriangleWave2/Model/1-D Lookup Table';
-pt(260).paramname = 'Table';
-pt(260).class     = 'vector';
+pt(260).blockname = 'TriangleWave/Model/Constant3';
+pt(260).paramname = 'Value';
+pt(260).class     = 'scalar';
 pt(260).nrows     = 1;
-pt(260).ncols     = 3;
+pt(260).ncols     = 1;
 pt(260).subsource = 'SS_DOUBLE';
 pt(260).ndims     = '2';
 pt(260).size      = '[]';
 pt(260).isStruct  = false;
-pt(260).symbol     = 'towTest_dualWinch_P.uDLookupTable_tableData_i';
-pt(260).baseaddr   = '&towTest_dualWinch_P.uDLookupTable_tableData_i[0]';
+pt(260).symbol     = 'towTest_dualWinch_P.Constant3_Value';
+pt(260).baseaddr   = '&towTest_dualWinch_P.Constant3_Value';
 pt(260).dtname     = 'real_T';
 
 
 
   
-pt(261).blockname = 'TriangleWave2/Model/1-D Lookup Table';
-pt(261).paramname = 'BreakpointsForDimension1';
-pt(261).class     = 'vector';
+pt(261).blockname = 'TriangleWave/Model/Constant4';
+pt(261).paramname = 'Value';
+pt(261).class     = 'scalar';
 pt(261).nrows     = 1;
-pt(261).ncols     = 3;
+pt(261).ncols     = 1;
 pt(261).subsource = 'SS_DOUBLE';
 pt(261).ndims     = '2';
 pt(261).size      = '[]';
 pt(261).isStruct  = false;
-pt(261).symbol     = 'towTest_dualWinch_P.uDLookupTable_bp01Data_m';
-pt(261).baseaddr   = '&towTest_dualWinch_P.uDLookupTable_bp01Data_m[0]';
+pt(261).symbol     = 'towTest_dualWinch_P.Constant4_Value';
+pt(261).baseaddr   = '&towTest_dualWinch_P.Constant4_Value';
 pt(261).dtname     = 'real_T';
 
 
 
   
-pt(262).blockname = 'TriangleWave2/Model/Unit Delay';
-pt(262).paramname = 'InitialCondition';
+pt(262).blockname = 'TriangleWave/Model/1\ib1';
+pt(262).paramname = 'Gain';
 pt(262).class     = 'scalar';
 pt(262).nrows     = 1;
 pt(262).ncols     = 1;
@@ -4188,95 +4188,95 @@ pt(262).subsource = 'SS_DOUBLE';
 pt(262).ndims     = '2';
 pt(262).size      = '[]';
 pt(262).isStruct  = false;
-pt(262).symbol     = 'towTest_dualWinch_P.UnitDelay_InitialCondition_g';
-pt(262).baseaddr   = '&towTest_dualWinch_P.UnitDelay_InitialCondition_g';
+pt(262).symbol     = 'towTest_dualWinch_P.uib1_Gain';
+pt(262).baseaddr   = '&towTest_dualWinch_P.uib1_Gain';
 pt(262).dtname     = 'real_T';
 
 
 
   
-pt(263).blockname = 'Send Receive (v3) /ISR/doWhile/Constant';
-pt(263).paramname = 'Value';
-pt(263).class     = 'scalar';
+pt(263).blockname = 'TriangleWave/Model/1-D Lookup Table';
+pt(263).paramname = 'Table';
+pt(263).class     = 'vector';
 pt(263).nrows     = 1;
-pt(263).ncols     = 1;
+pt(263).ncols     = 3;
 pt(263).subsource = 'SS_DOUBLE';
 pt(263).ndims     = '2';
 pt(263).size      = '[]';
 pt(263).isStruct  = false;
-pt(263).symbol     = 'towTest_dualWinch_P.Constant_Value';
-pt(263).baseaddr   = '&towTest_dualWinch_P.Constant_Value';
+pt(263).symbol     = 'towTest_dualWinch_P.uDLookupTable_tableData';
+pt(263).baseaddr   = '&towTest_dualWinch_P.uDLookupTable_tableData[0]';
 pt(263).dtname     = 'real_T';
 
 
 
   
-pt(264).blockname = 'Send Receive (v3) /ISR/doWhile/Constant1';
-pt(264).paramname = 'Value';
-pt(264).class     = 'scalar';
+pt(264).blockname = 'TriangleWave/Model/1-D Lookup Table';
+pt(264).paramname = 'BreakpointsForDimension1';
+pt(264).class     = 'vector';
 pt(264).nrows     = 1;
-pt(264).ncols     = 1;
-pt(264).subsource = 'SS_UINT32';
+pt(264).ncols     = 3;
+pt(264).subsource = 'SS_DOUBLE';
 pt(264).ndims     = '2';
 pt(264).size      = '[]';
 pt(264).isStruct  = false;
-pt(264).symbol     = 'towTest_dualWinch_P.Constant1_Value_c';
-pt(264).baseaddr   = '&towTest_dualWinch_P.Constant1_Value_c';
-pt(264).dtname     = 'uint32_T';
+pt(264).symbol     = 'towTest_dualWinch_P.uDLookupTable_bp01Data';
+pt(264).baseaddr   = '&towTest_dualWinch_P.uDLookupTable_bp01Data[0]';
+pt(264).dtname     = 'real_T';
 
 
 
   
-pt(265).blockname = 'Send Receive (v3) /ISR/doWhile/Constant2';
-pt(265).paramname = 'Value';
+pt(265).blockname = 'TriangleWave/Model/Unit Delay';
+pt(265).paramname = 'InitialCondition';
 pt(265).class     = 'scalar';
 pt(265).nrows     = 1;
 pt(265).ncols     = 1;
-pt(265).subsource = 'SS_UINT32';
+pt(265).subsource = 'SS_DOUBLE';
 pt(265).ndims     = '2';
 pt(265).size      = '[]';
 pt(265).isStruct  = false;
-pt(265).symbol     = 'towTest_dualWinch_P.Constant2_Value_jt';
-pt(265).baseaddr   = '&towTest_dualWinch_P.Constant2_Value_jt';
-pt(265).dtname     = 'uint32_T';
+pt(265).symbol     = 'towTest_dualWinch_P.UnitDelay_InitialCondition';
+pt(265).baseaddr   = '&towTest_dualWinch_P.UnitDelay_InitialCondition';
+pt(265).dtname     = 'real_T';
 
 
 
   
-pt(266).blockname = 'Send Receive (v3) /ISR/doWhile/Constant3';
+pt(266).blockname = 'TriangleWave2/Model/Constant2';
 pt(266).paramname = 'Value';
 pt(266).class     = 'scalar';
 pt(266).nrows     = 1;
 pt(266).ncols     = 1;
-pt(266).subsource = 'SS_UINT32';
+pt(266).subsource = 'SS_DOUBLE';
 pt(266).ndims     = '2';
 pt(266).size      = '[]';
 pt(266).isStruct  = false;
-pt(266).symbol     = 'towTest_dualWinch_P.Constant3_Value_k';
-pt(266).baseaddr   = '&towTest_dualWinch_P.Constant3_Value_k';
-pt(266).dtname     = 'uint32_T';
+pt(266).symbol     = 'towTest_dualWinch_P.Constant2_Value_j';
+pt(266).baseaddr   = '&towTest_dualWinch_P.Constant2_Value_j';
+pt(266).dtname     = 'real_T';
 
 
 
   
-pt(267).blockname = 'Send Receive (v3) /ISR/doWhile/Constant4';
+pt(267).blockname = 'TriangleWave2/Model/Constant3';
 pt(267).paramname = 'Value';
 pt(267).class     = 'scalar';
 pt(267).nrows     = 1;
 pt(267).ncols     = 1;
-pt(267).subsource = 'SS_UINT32';
+pt(267).subsource = 'SS_DOUBLE';
 pt(267).ndims     = '2';
 pt(267).size      = '[]';
 pt(267).isStruct  = false;
-pt(267).symbol     = 'towTest_dualWinch_P.Constant4_Value_e';
-pt(267).baseaddr   = '&towTest_dualWinch_P.Constant4_Value_e';
-pt(267).dtname     = 'uint32_T';
+pt(267).symbol     = 'towTest_dualWinch_P.Constant3_Value_p';
+pt(267).baseaddr   = '&towTest_dualWinch_P.Constant3_Value_p';
+pt(267).dtname     = 'real_T';
 
 
 
   
-pt(268).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
-pt(268).paramname = 'P1';
+pt(268).blockname = 'TriangleWave2/Model/Constant4';
+pt(268).paramname = 'Value';
 pt(268).class     = 'scalar';
 pt(268).nrows     = 1;
 pt(268).ncols     = 1;
@@ -4284,15 +4284,15 @@ pt(268).subsource = 'SS_DOUBLE';
 pt(268).ndims     = '2';
 pt(268).size      = '[]';
 pt(268).isStruct  = false;
-pt(268).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P1';
-pt(268).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P1';
+pt(268).symbol     = 'towTest_dualWinch_P.Constant4_Value_k';
+pt(268).baseaddr   = '&towTest_dualWinch_P.Constant4_Value_k';
 pt(268).dtname     = 'real_T';
 
 
 
   
-pt(269).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
-pt(269).paramname = 'P2';
+pt(269).blockname = 'TriangleWave2/Model/1\ib1';
+pt(269).paramname = 'Gain';
 pt(269).class     = 'scalar';
 pt(269).nrows     = 1;
 pt(269).ncols     = 1;
@@ -4300,47 +4300,47 @@ pt(269).subsource = 'SS_DOUBLE';
 pt(269).ndims     = '2';
 pt(269).size      = '[]';
 pt(269).isStruct  = false;
-pt(269).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P2';
-pt(269).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P2';
+pt(269).symbol     = 'towTest_dualWinch_P.uib1_Gain_b';
+pt(269).baseaddr   = '&towTest_dualWinch_P.uib1_Gain_b';
 pt(269).dtname     = 'real_T';
 
 
 
   
-pt(270).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
-pt(270).paramname = 'P3';
-pt(270).class     = 'scalar';
+pt(270).blockname = 'TriangleWave2/Model/1-D Lookup Table';
+pt(270).paramname = 'Table';
+pt(270).class     = 'vector';
 pt(270).nrows     = 1;
-pt(270).ncols     = 1;
+pt(270).ncols     = 3;
 pt(270).subsource = 'SS_DOUBLE';
 pt(270).ndims     = '2';
 pt(270).size      = '[]';
 pt(270).isStruct  = false;
-pt(270).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P3';
-pt(270).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P3';
+pt(270).symbol     = 'towTest_dualWinch_P.uDLookupTable_tableData_i';
+pt(270).baseaddr   = '&towTest_dualWinch_P.uDLookupTable_tableData_i[0]';
 pt(270).dtname     = 'real_T';
 
 
 
   
-pt(271).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
-pt(271).paramname = 'P4';
-pt(271).class     = 'scalar';
+pt(271).blockname = 'TriangleWave2/Model/1-D Lookup Table';
+pt(271).paramname = 'BreakpointsForDimension1';
+pt(271).class     = 'vector';
 pt(271).nrows     = 1;
-pt(271).ncols     = 1;
+pt(271).ncols     = 3;
 pt(271).subsource = 'SS_DOUBLE';
 pt(271).ndims     = '2';
 pt(271).size      = '[]';
 pt(271).isStruct  = false;
-pt(271).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P4';
-pt(271).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P4';
+pt(271).symbol     = 'towTest_dualWinch_P.uDLookupTable_bp01Data_m';
+pt(271).baseaddr   = '&towTest_dualWinch_P.uDLookupTable_bp01Data_m[0]';
 pt(271).dtname     = 'real_T';
 
 
 
   
-pt(272).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
-pt(272).paramname = 'P5';
+pt(272).blockname = 'TriangleWave2/Model/Unit Delay';
+pt(272).paramname = 'InitialCondition';
 pt(272).class     = 'scalar';
 pt(272).nrows     = 1;
 pt(272).ncols     = 1;
@@ -4348,15 +4348,15 @@ pt(272).subsource = 'SS_DOUBLE';
 pt(272).ndims     = '2';
 pt(272).size      = '[]';
 pt(272).isStruct  = false;
-pt(272).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P5';
-pt(272).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P5';
+pt(272).symbol     = 'towTest_dualWinch_P.UnitDelay_InitialCondition_g';
+pt(272).baseaddr   = '&towTest_dualWinch_P.UnitDelay_InitialCondition_g';
 pt(272).dtname     = 'real_T';
 
 
 
   
-pt(273).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
-pt(273).paramname = 'P1';
+pt(273).blockname = 'Send Receive (v3) /ISR/doWhile/Constant';
+pt(273).paramname = 'Value';
 pt(273).class     = 'scalar';
 pt(273).nrows     = 1;
 pt(273).ncols     = 1;
@@ -4364,78 +4364,78 @@ pt(273).subsource = 'SS_DOUBLE';
 pt(273).ndims     = '2';
 pt(273).size      = '[]';
 pt(273).isStruct  = false;
-pt(273).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P1';
-pt(273).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P1';
+pt(273).symbol     = 'towTest_dualWinch_P.Constant_Value';
+pt(273).baseaddr   = '&towTest_dualWinch_P.Constant_Value';
 pt(273).dtname     = 'real_T';
 
 
 
   
-pt(274).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
-pt(274).paramname = 'P2';
+pt(274).blockname = 'Send Receive (v3) /ISR/doWhile/Constant1';
+pt(274).paramname = 'Value';
 pt(274).class     = 'scalar';
 pt(274).nrows     = 1;
 pt(274).ncols     = 1;
-pt(274).subsource = 'SS_DOUBLE';
+pt(274).subsource = 'SS_UINT32';
 pt(274).ndims     = '2';
 pt(274).size      = '[]';
 pt(274).isStruct  = false;
-pt(274).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P2';
-pt(274).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P2';
-pt(274).dtname     = 'real_T';
+pt(274).symbol     = 'towTest_dualWinch_P.Constant1_Value_c';
+pt(274).baseaddr   = '&towTest_dualWinch_P.Constant1_Value_c';
+pt(274).dtname     = 'uint32_T';
 
 
 
   
-pt(275).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
-pt(275).paramname = 'P3';
+pt(275).blockname = 'Send Receive (v3) /ISR/doWhile/Constant2';
+pt(275).paramname = 'Value';
 pt(275).class     = 'scalar';
 pt(275).nrows     = 1;
 pt(275).ncols     = 1;
-pt(275).subsource = 'SS_DOUBLE';
+pt(275).subsource = 'SS_UINT32';
 pt(275).ndims     = '2';
 pt(275).size      = '[]';
 pt(275).isStruct  = false;
-pt(275).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P3';
-pt(275).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P3';
-pt(275).dtname     = 'real_T';
+pt(275).symbol     = 'towTest_dualWinch_P.Constant2_Value_jt';
+pt(275).baseaddr   = '&towTest_dualWinch_P.Constant2_Value_jt';
+pt(275).dtname     = 'uint32_T';
 
 
 
   
-pt(276).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
-pt(276).paramname = 'P4';
+pt(276).blockname = 'Send Receive (v3) /ISR/doWhile/Constant3';
+pt(276).paramname = 'Value';
 pt(276).class     = 'scalar';
 pt(276).nrows     = 1;
 pt(276).ncols     = 1;
-pt(276).subsource = 'SS_DOUBLE';
+pt(276).subsource = 'SS_UINT32';
 pt(276).ndims     = '2';
 pt(276).size      = '[]';
 pt(276).isStruct  = false;
-pt(276).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P4';
-pt(276).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P4';
-pt(276).dtname     = 'real_T';
+pt(276).symbol     = 'towTest_dualWinch_P.Constant3_Value_k';
+pt(276).baseaddr   = '&towTest_dualWinch_P.Constant3_Value_k';
+pt(276).dtname     = 'uint32_T';
 
 
 
   
-pt(277).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
-pt(277).paramname = 'P5';
+pt(277).blockname = 'Send Receive (v3) /ISR/doWhile/Constant4';
+pt(277).paramname = 'Value';
 pt(277).class     = 'scalar';
 pt(277).nrows     = 1;
 pt(277).ncols     = 1;
-pt(277).subsource = 'SS_DOUBLE';
+pt(277).subsource = 'SS_UINT32';
 pt(277).ndims     = '2';
 pt(277).size      = '[]';
 pt(277).isStruct  = false;
-pt(277).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P5';
-pt(277).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P5';
-pt(277).dtname     = 'real_T';
+pt(277).symbol     = 'towTest_dualWinch_P.Constant4_Value_e';
+pt(277).baseaddr   = '&towTest_dualWinch_P.Constant4_Value_e';
+pt(277).dtname     = 'uint32_T';
 
 
 
   
-pt(278).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
+pt(278).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
 pt(278).paramname = 'P1';
 pt(278).class     = 'scalar';
 pt(278).nrows     = 1;
@@ -4444,14 +4444,14 @@ pt(278).subsource = 'SS_DOUBLE';
 pt(278).ndims     = '2';
 pt(278).size      = '[]';
 pt(278).isStruct  = false;
-pt(278).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P1';
-pt(278).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P1';
+pt(278).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P1';
+pt(278).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P1';
 pt(278).dtname     = 'real_T';
 
 
 
   
-pt(279).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
+pt(279).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
 pt(279).paramname = 'P2';
 pt(279).class     = 'scalar';
 pt(279).nrows     = 1;
@@ -4460,14 +4460,14 @@ pt(279).subsource = 'SS_DOUBLE';
 pt(279).ndims     = '2';
 pt(279).size      = '[]';
 pt(279).isStruct  = false;
-pt(279).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P2';
-pt(279).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P2';
+pt(279).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P2';
+pt(279).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P2';
 pt(279).dtname     = 'real_T';
 
 
 
   
-pt(280).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
+pt(280).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
 pt(280).paramname = 'P3';
 pt(280).class     = 'scalar';
 pt(280).nrows     = 1;
@@ -4476,14 +4476,14 @@ pt(280).subsource = 'SS_DOUBLE';
 pt(280).ndims     = '2';
 pt(280).size      = '[]';
 pt(280).isStruct  = false;
-pt(280).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P3';
-pt(280).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P3';
+pt(280).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P3';
+pt(280).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P3';
 pt(280).dtname     = 'real_T';
 
 
 
   
-pt(281).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
+pt(281).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
 pt(281).paramname = 'P4';
 pt(281).class     = 'scalar';
 pt(281).nrows     = 1;
@@ -4492,14 +4492,14 @@ pt(281).subsource = 'SS_DOUBLE';
 pt(281).ndims     = '2';
 pt(281).size      = '[]';
 pt(281).isStruct  = false;
-pt(281).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P4';
-pt(281).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P4';
+pt(281).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P4';
+pt(281).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P4';
 pt(281).dtname     = 'real_T';
 
 
 
   
-pt(282).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
+pt(282).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 1';
 pt(282).paramname = 'P5';
 pt(282).class     = 'scalar';
 pt(282).nrows     = 1;
@@ -4508,14 +4508,14 @@ pt(282).subsource = 'SS_DOUBLE';
 pt(282).ndims     = '2';
 pt(282).size      = '[]';
 pt(282).isStruct  = false;
-pt(282).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P5';
-pt(282).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P5';
+pt(282).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv31_P5';
+pt(282).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv31_P5';
 pt(282).dtname     = 'real_T';
 
 
 
   
-pt(283).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
+pt(283).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
 pt(283).paramname = 'P1';
 pt(283).class     = 'scalar';
 pt(283).nrows     = 1;
@@ -4524,14 +4524,14 @@ pt(283).subsource = 'SS_DOUBLE';
 pt(283).ndims     = '2';
 pt(283).size      = '[]';
 pt(283).isStruct  = false;
-pt(283).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P1';
-pt(283).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P1';
+pt(283).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P1';
+pt(283).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P1';
 pt(283).dtname     = 'real_T';
 
 
 
   
-pt(284).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
+pt(284).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
 pt(284).paramname = 'P2';
 pt(284).class     = 'scalar';
 pt(284).nrows     = 1;
@@ -4540,14 +4540,14 @@ pt(284).subsource = 'SS_DOUBLE';
 pt(284).ndims     = '2';
 pt(284).size      = '[]';
 pt(284).isStruct  = false;
-pt(284).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P2';
-pt(284).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P2';
+pt(284).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P2';
+pt(284).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P2';
 pt(284).dtname     = 'real_T';
 
 
 
   
-pt(285).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
+pt(285).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
 pt(285).paramname = 'P3';
 pt(285).class     = 'scalar';
 pt(285).nrows     = 1;
@@ -4556,14 +4556,14 @@ pt(285).subsource = 'SS_DOUBLE';
 pt(285).ndims     = '2';
 pt(285).size      = '[]';
 pt(285).isStruct  = false;
-pt(285).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P3';
-pt(285).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P3';
+pt(285).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P3';
+pt(285).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P3';
 pt(285).dtname     = 'real_T';
 
 
 
   
-pt(286).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
+pt(286).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
 pt(286).paramname = 'P4';
 pt(286).class     = 'scalar';
 pt(286).nrows     = 1;
@@ -4572,14 +4572,14 @@ pt(286).subsource = 'SS_DOUBLE';
 pt(286).ndims     = '2';
 pt(286).size      = '[]';
 pt(286).isStruct  = false;
-pt(286).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P4';
-pt(286).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P4';
+pt(286).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P4';
+pt(286).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P4';
 pt(286).dtname     = 'real_T';
 
 
 
   
-pt(287).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
+pt(287).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 2';
 pt(287).paramname = 'P5';
 pt(287).class     = 'scalar';
 pt(287).nrows     = 1;
@@ -4588,14 +4588,14 @@ pt(287).subsource = 'SS_DOUBLE';
 pt(287).ndims     = '2';
 pt(287).size      = '[]';
 pt(287).isStruct  = false;
-pt(287).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P5';
-pt(287).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P5';
+pt(287).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv32_P5';
+pt(287).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv32_P5';
 pt(287).dtname     = 'real_T';
 
 
 
   
-pt(288).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
+pt(288).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
 pt(288).paramname = 'P1';
 pt(288).class     = 'scalar';
 pt(288).nrows     = 1;
@@ -4604,14 +4604,14 @@ pt(288).subsource = 'SS_DOUBLE';
 pt(288).ndims     = '2';
 pt(288).size      = '[]';
 pt(288).isStruct  = false;
-pt(288).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P1';
-pt(288).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P1';
+pt(288).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P1';
+pt(288).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P1';
 pt(288).dtname     = 'real_T';
 
 
 
   
-pt(289).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
+pt(289).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
 pt(289).paramname = 'P2';
 pt(289).class     = 'scalar';
 pt(289).nrows     = 1;
@@ -4620,14 +4620,14 @@ pt(289).subsource = 'SS_DOUBLE';
 pt(289).ndims     = '2';
 pt(289).size      = '[]';
 pt(289).isStruct  = false;
-pt(289).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P2';
-pt(289).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P2';
+pt(289).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P2';
+pt(289).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P2';
 pt(289).dtname     = 'real_T';
 
 
 
   
-pt(290).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
+pt(290).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
 pt(290).paramname = 'P3';
 pt(290).class     = 'scalar';
 pt(290).nrows     = 1;
@@ -4636,14 +4636,14 @@ pt(290).subsource = 'SS_DOUBLE';
 pt(290).ndims     = '2';
 pt(290).size      = '[]';
 pt(290).isStruct  = false;
-pt(290).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P3';
-pt(290).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P3';
+pt(290).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P3';
+pt(290).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P3';
 pt(290).dtname     = 'real_T';
 
 
 
   
-pt(291).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
+pt(291).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
 pt(291).paramname = 'P4';
 pt(291).class     = 'scalar';
 pt(291).nrows     = 1;
@@ -4652,14 +4652,14 @@ pt(291).subsource = 'SS_DOUBLE';
 pt(291).ndims     = '2';
 pt(291).size      = '[]';
 pt(291).isStruct  = false;
-pt(291).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P4';
-pt(291).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P4';
+pt(291).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P4';
+pt(291).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P4';
 pt(291).dtname     = 'real_T';
 
 
 
   
-pt(292).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
+pt(292).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 3';
 pt(292).paramname = 'P5';
 pt(292).class     = 'scalar';
 pt(292).nrows     = 1;
@@ -4668,14 +4668,14 @@ pt(292).subsource = 'SS_DOUBLE';
 pt(292).ndims     = '2';
 pt(292).size      = '[]';
 pt(292).isStruct  = false;
-pt(292).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P5';
-pt(292).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P5';
+pt(292).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv33_P5';
+pt(292).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv33_P5';
 pt(292).dtname     = 'real_T';
 
 
 
   
-pt(293).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
+pt(293).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
 pt(293).paramname = 'P1';
 pt(293).class     = 'scalar';
 pt(293).nrows     = 1;
@@ -4684,14 +4684,14 @@ pt(293).subsource = 'SS_DOUBLE';
 pt(293).ndims     = '2';
 pt(293).size      = '[]';
 pt(293).isStruct  = false;
-pt(293).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P1';
-pt(293).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P1';
+pt(293).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P1';
+pt(293).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P1';
 pt(293).dtname     = 'real_T';
 
 
 
   
-pt(294).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
+pt(294).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
 pt(294).paramname = 'P2';
 pt(294).class     = 'scalar';
 pt(294).nrows     = 1;
@@ -4700,14 +4700,14 @@ pt(294).subsource = 'SS_DOUBLE';
 pt(294).ndims     = '2';
 pt(294).size      = '[]';
 pt(294).isStruct  = false;
-pt(294).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P2';
-pt(294).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P2';
+pt(294).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P2';
+pt(294).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P2';
 pt(294).dtname     = 'real_T';
 
 
 
   
-pt(295).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
+pt(295).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
 pt(295).paramname = 'P3';
 pt(295).class     = 'scalar';
 pt(295).nrows     = 1;
@@ -4716,14 +4716,14 @@ pt(295).subsource = 'SS_DOUBLE';
 pt(295).ndims     = '2';
 pt(295).size      = '[]';
 pt(295).isStruct  = false;
-pt(295).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P3';
-pt(295).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P3';
+pt(295).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P3';
+pt(295).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P3';
 pt(295).dtname     = 'real_T';
 
 
 
   
-pt(296).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
+pt(296).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
 pt(296).paramname = 'P4';
 pt(296).class     = 'scalar';
 pt(296).nrows     = 1;
@@ -4732,14 +4732,14 @@ pt(296).subsource = 'SS_DOUBLE';
 pt(296).ndims     = '2';
 pt(296).size      = '[]';
 pt(296).isStruct  = false;
-pt(296).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P4';
-pt(296).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P4';
+pt(296).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P4';
+pt(296).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P4';
 pt(296).dtname     = 'real_T';
 
 
 
   
-pt(297).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
+pt(297).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Read (v3) 4';
 pt(297).paramname = 'P5';
 pt(297).class     = 'scalar';
 pt(297).nrows     = 1;
@@ -4748,14 +4748,14 @@ pt(297).subsource = 'SS_DOUBLE';
 pt(297).ndims     = '2';
 pt(297).size      = '[]';
 pt(297).isStruct  = false;
-pt(297).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P5';
-pt(297).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P5';
+pt(297).symbol     = 'towTest_dualWinch_P.IntSourceFilterReadv34_P5';
+pt(297).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterReadv34_P5';
 pt(297).dtname     = 'real_T';
 
 
 
   
-pt(298).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
+pt(298).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
 pt(298).paramname = 'P1';
 pt(298).class     = 'scalar';
 pt(298).nrows     = 1;
@@ -4764,14 +4764,14 @@ pt(298).subsource = 'SS_DOUBLE';
 pt(298).ndims     = '2';
 pt(298).size      = '[]';
 pt(298).isStruct  = false;
-pt(298).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P1';
-pt(298).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P1';
+pt(298).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P1';
+pt(298).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P1';
 pt(298).dtname     = 'real_T';
 
 
 
   
-pt(299).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
+pt(299).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
 pt(299).paramname = 'P2';
 pt(299).class     = 'scalar';
 pt(299).nrows     = 1;
@@ -4780,14 +4780,14 @@ pt(299).subsource = 'SS_DOUBLE';
 pt(299).ndims     = '2';
 pt(299).size      = '[]';
 pt(299).isStruct  = false;
-pt(299).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P2';
-pt(299).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P2';
+pt(299).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P2';
+pt(299).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P2';
 pt(299).dtname     = 'real_T';
 
 
 
   
-pt(300).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
+pt(300).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
 pt(300).paramname = 'P3';
 pt(300).class     = 'scalar';
 pt(300).nrows     = 1;
@@ -4796,14 +4796,14 @@ pt(300).subsource = 'SS_DOUBLE';
 pt(300).ndims     = '2';
 pt(300).size      = '[]';
 pt(300).isStruct  = false;
-pt(300).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P3';
-pt(300).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P3';
+pt(300).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P3';
+pt(300).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P3';
 pt(300).dtname     = 'real_T';
 
 
 
   
-pt(301).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
+pt(301).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
 pt(301).paramname = 'P4';
 pt(301).class     = 'scalar';
 pt(301).nrows     = 1;
@@ -4812,14 +4812,14 @@ pt(301).subsource = 'SS_DOUBLE';
 pt(301).ndims     = '2';
 pt(301).size      = '[]';
 pt(301).isStruct  = false;
-pt(301).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P4';
-pt(301).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P4';
+pt(301).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P4';
+pt(301).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P4';
 pt(301).dtname     = 'real_T';
 
 
 
   
-pt(302).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
+pt(302).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 1';
 pt(302).paramname = 'P5';
 pt(302).class     = 'scalar';
 pt(302).nrows     = 1;
@@ -4828,14 +4828,14 @@ pt(302).subsource = 'SS_DOUBLE';
 pt(302).ndims     = '2';
 pt(302).size      = '[]';
 pt(302).isStruct  = false;
-pt(302).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P5';
-pt(302).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P5';
+pt(302).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev31_P5';
+pt(302).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev31_P5';
 pt(302).dtname     = 'real_T';
 
 
 
   
-pt(303).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(303).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
 pt(303).paramname = 'P1';
 pt(303).class     = 'scalar';
 pt(303).nrows     = 1;
@@ -4844,14 +4844,14 @@ pt(303).subsource = 'SS_DOUBLE';
 pt(303).ndims     = '2';
 pt(303).size      = '[]';
 pt(303).isStruct  = false;
-pt(303).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P1';
-pt(303).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P1';
+pt(303).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P1';
+pt(303).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P1';
 pt(303).dtname     = 'real_T';
 
 
 
   
-pt(304).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(304).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
 pt(304).paramname = 'P2';
 pt(304).class     = 'scalar';
 pt(304).nrows     = 1;
@@ -4860,14 +4860,14 @@ pt(304).subsource = 'SS_DOUBLE';
 pt(304).ndims     = '2';
 pt(304).size      = '[]';
 pt(304).isStruct  = false;
-pt(304).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P2';
-pt(304).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P2';
+pt(304).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P2';
+pt(304).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P2';
 pt(304).dtname     = 'real_T';
 
 
 
   
-pt(305).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(305).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
 pt(305).paramname = 'P3';
 pt(305).class     = 'scalar';
 pt(305).nrows     = 1;
@@ -4876,14 +4876,14 @@ pt(305).subsource = 'SS_DOUBLE';
 pt(305).ndims     = '2';
 pt(305).size      = '[]';
 pt(305).isStruct  = false;
-pt(305).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P3';
-pt(305).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P3';
+pt(305).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P3';
+pt(305).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P3';
 pt(305).dtname     = 'real_T';
 
 
 
   
-pt(306).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(306).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
 pt(306).paramname = 'P4';
 pt(306).class     = 'scalar';
 pt(306).nrows     = 1;
@@ -4892,14 +4892,14 @@ pt(306).subsource = 'SS_DOUBLE';
 pt(306).ndims     = '2';
 pt(306).size      = '[]';
 pt(306).isStruct  = false;
-pt(306).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P4';
-pt(306).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P4';
+pt(306).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P4';
+pt(306).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P4';
 pt(306).dtname     = 'real_T';
 
 
 
   
-pt(307).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(307).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 2';
 pt(307).paramname = 'P5';
 pt(307).class     = 'scalar';
 pt(307).nrows     = 1;
@@ -4908,14 +4908,14 @@ pt(307).subsource = 'SS_DOUBLE';
 pt(307).ndims     = '2';
 pt(307).size      = '[]';
 pt(307).isStruct  = false;
-pt(307).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P5';
-pt(307).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P5';
+pt(307).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev32_P5';
+pt(307).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev32_P5';
 pt(307).dtname     = 'real_T';
 
 
 
   
-pt(308).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(308).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
 pt(308).paramname = 'P1';
 pt(308).class     = 'scalar';
 pt(308).nrows     = 1;
@@ -4924,14 +4924,14 @@ pt(308).subsource = 'SS_DOUBLE';
 pt(308).ndims     = '2';
 pt(308).size      = '[]';
 pt(308).isStruct  = false;
-pt(308).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P1';
-pt(308).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P1';
+pt(308).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P1';
+pt(308).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P1';
 pt(308).dtname     = 'real_T';
 
 
 
   
-pt(309).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(309).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
 pt(309).paramname = 'P2';
 pt(309).class     = 'scalar';
 pt(309).nrows     = 1;
@@ -4940,14 +4940,14 @@ pt(309).subsource = 'SS_DOUBLE';
 pt(309).ndims     = '2';
 pt(309).size      = '[]';
 pt(309).isStruct  = false;
-pt(309).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P2';
-pt(309).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P2';
+pt(309).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P2';
+pt(309).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P2';
 pt(309).dtname     = 'real_T';
 
 
 
   
-pt(310).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(310).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
 pt(310).paramname = 'P3';
 pt(310).class     = 'scalar';
 pt(310).nrows     = 1;
@@ -4956,14 +4956,14 @@ pt(310).subsource = 'SS_DOUBLE';
 pt(310).ndims     = '2';
 pt(310).size      = '[]';
 pt(310).isStruct  = false;
-pt(310).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P3';
-pt(310).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P3';
+pt(310).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P3';
+pt(310).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P3';
 pt(310).dtname     = 'real_T';
 
 
 
   
-pt(311).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(311).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
 pt(311).paramname = 'P4';
 pt(311).class     = 'scalar';
 pt(311).nrows     = 1;
@@ -4972,14 +4972,14 @@ pt(311).subsource = 'SS_DOUBLE';
 pt(311).ndims     = '2';
 pt(311).size      = '[]';
 pt(311).isStruct  = false;
-pt(311).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P4';
-pt(311).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P4';
+pt(311).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P4';
+pt(311).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P4';
 pt(311).dtname     = 'real_T';
 
 
 
   
-pt(312).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(312).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 3';
 pt(312).paramname = 'P5';
 pt(312).class     = 'scalar';
 pt(312).nrows     = 1;
@@ -4988,15 +4988,15 @@ pt(312).subsource = 'SS_DOUBLE';
 pt(312).ndims     = '2';
 pt(312).size      = '[]';
 pt(312).isStruct  = false;
-pt(312).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P5';
-pt(312).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P5';
+pt(312).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev33_P5';
+pt(312).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev33_P5';
 pt(312).dtname     = 'real_T';
 
 
 
   
-pt(313).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
-pt(313).paramname = 'P6';
+pt(313).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(313).paramname = 'P1';
 pt(313).class     = 'scalar';
 pt(313).nrows     = 1;
 pt(313).ncols     = 1;
@@ -5004,15 +5004,15 @@ pt(313).subsource = 'SS_DOUBLE';
 pt(313).ndims     = '2';
 pt(313).size      = '[]';
 pt(313).isStruct  = false;
-pt(313).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P6';
-pt(313).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P6';
+pt(313).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P1';
+pt(313).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P1';
 pt(313).dtname     = 'real_T';
 
 
 
   
-pt(314).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
-pt(314).paramname = 'P1';
+pt(314).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(314).paramname = 'P2';
 pt(314).class     = 'scalar';
 pt(314).nrows     = 1;
 pt(314).ncols     = 1;
@@ -5020,15 +5020,15 @@ pt(314).subsource = 'SS_DOUBLE';
 pt(314).ndims     = '2';
 pt(314).size      = '[]';
 pt(314).isStruct  = false;
-pt(314).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P1';
-pt(314).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P1';
+pt(314).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P2';
+pt(314).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P2';
 pt(314).dtname     = 'real_T';
 
 
 
   
-pt(315).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
-pt(315).paramname = 'P2';
+pt(315).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(315).paramname = 'P3';
 pt(315).class     = 'scalar';
 pt(315).nrows     = 1;
 pt(315).ncols     = 1;
@@ -5036,15 +5036,15 @@ pt(315).subsource = 'SS_DOUBLE';
 pt(315).ndims     = '2';
 pt(315).size      = '[]';
 pt(315).isStruct  = false;
-pt(315).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P2';
-pt(315).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P2';
+pt(315).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P3';
+pt(315).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P3';
 pt(315).dtname     = 'real_T';
 
 
 
   
-pt(316).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
-pt(316).paramname = 'P3';
+pt(316).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(316).paramname = 'P4';
 pt(316).class     = 'scalar';
 pt(316).nrows     = 1;
 pt(316).ncols     = 1;
@@ -5052,15 +5052,15 @@ pt(316).subsource = 'SS_DOUBLE';
 pt(316).ndims     = '2';
 pt(316).size      = '[]';
 pt(316).isStruct  = false;
-pt(316).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P3';
-pt(316).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P3';
+pt(316).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P4';
+pt(316).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P4';
 pt(316).dtname     = 'real_T';
 
 
 
   
-pt(317).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
-pt(317).paramname = 'P4';
+pt(317).blockname = 'Send Receive (v3) /ISR/doWhile/Int Source Filter Write (v3) 4';
+pt(317).paramname = 'P5';
 pt(317).class     = 'scalar';
 pt(317).nrows     = 1;
 pt(317).ncols     = 1;
@@ -5068,15 +5068,15 @@ pt(317).subsource = 'SS_DOUBLE';
 pt(317).ndims     = '2';
 pt(317).size      = '[]';
 pt(317).isStruct  = false;
-pt(317).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P4';
-pt(317).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P4';
+pt(317).symbol     = 'towTest_dualWinch_P.IntSourceFilterWritev34_P5';
+pt(317).baseaddr   = '&towTest_dualWinch_P.IntSourceFilterWritev34_P5';
 pt(317).dtname     = 'real_T';
 
 
 
   
-pt(318).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
-pt(318).paramname = 'P5';
+pt(318).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(318).paramname = 'P1';
 pt(318).class     = 'scalar';
 pt(318).nrows     = 1;
 pt(318).ncols     = 1;
@@ -5084,15 +5084,15 @@ pt(318).subsource = 'SS_DOUBLE';
 pt(318).ndims     = '2';
 pt(318).size      = '[]';
 pt(318).isStruct  = false;
-pt(318).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P5';
-pt(318).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P5';
+pt(318).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P1';
+pt(318).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P1';
 pt(318).dtname     = 'real_T';
 
 
 
   
-pt(319).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
-pt(319).paramname = 'P6';
+pt(319).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(319).paramname = 'P2';
 pt(319).class     = 'scalar';
 pt(319).nrows     = 1;
 pt(319).ncols     = 1;
@@ -5100,15 +5100,15 @@ pt(319).subsource = 'SS_DOUBLE';
 pt(319).ndims     = '2';
 pt(319).size      = '[]';
 pt(319).isStruct  = false;
-pt(319).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P6';
-pt(319).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P6';
+pt(319).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P2';
+pt(319).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P2';
 pt(319).dtname     = 'real_T';
 
 
 
   
-pt(320).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
-pt(320).paramname = 'P1';
+pt(320).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(320).paramname = 'P3';
 pt(320).class     = 'scalar';
 pt(320).nrows     = 1;
 pt(320).ncols     = 1;
@@ -5116,15 +5116,15 @@ pt(320).subsource = 'SS_DOUBLE';
 pt(320).ndims     = '2';
 pt(320).size      = '[]';
 pt(320).isStruct  = false;
-pt(320).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P1';
-pt(320).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P1';
+pt(320).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P3';
+pt(320).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P3';
 pt(320).dtname     = 'real_T';
 
 
 
   
-pt(321).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
-pt(321).paramname = 'P2';
+pt(321).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(321).paramname = 'P4';
 pt(321).class     = 'scalar';
 pt(321).nrows     = 1;
 pt(321).ncols     = 1;
@@ -5132,15 +5132,15 @@ pt(321).subsource = 'SS_DOUBLE';
 pt(321).ndims     = '2';
 pt(321).size      = '[]';
 pt(321).isStruct  = false;
-pt(321).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P2';
-pt(321).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P2';
+pt(321).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P4';
+pt(321).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P4';
 pt(321).dtname     = 'real_T';
 
 
 
   
-pt(322).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
-pt(322).paramname = 'P3';
+pt(322).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(322).paramname = 'P5';
 pt(322).class     = 'scalar';
 pt(322).nrows     = 1;
 pt(322).ncols     = 1;
@@ -5148,15 +5148,15 @@ pt(322).subsource = 'SS_DOUBLE';
 pt(322).ndims     = '2';
 pt(322).size      = '[]';
 pt(322).isStruct  = false;
-pt(322).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P3';
-pt(322).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P3';
+pt(322).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P5';
+pt(322).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P5';
 pt(322).dtname     = 'real_T';
 
 
 
   
-pt(323).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
-pt(323).paramname = 'P4';
+pt(323).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 1';
+pt(323).paramname = 'P6';
 pt(323).class     = 'scalar';
 pt(323).nrows     = 1;
 pt(323).ncols     = 1;
@@ -5164,15 +5164,15 @@ pt(323).subsource = 'SS_DOUBLE';
 pt(323).ndims     = '2';
 pt(323).size      = '[]';
 pt(323).isStruct  = false;
-pt(323).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P4';
-pt(323).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P4';
+pt(323).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv31_P6';
+pt(323).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv31_P6';
 pt(323).dtname     = 'real_T';
 
 
 
   
-pt(324).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
-pt(324).paramname = 'P5';
+pt(324).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
+pt(324).paramname = 'P1';
 pt(324).class     = 'scalar';
 pt(324).nrows     = 1;
 pt(324).ncols     = 1;
@@ -5180,15 +5180,15 @@ pt(324).subsource = 'SS_DOUBLE';
 pt(324).ndims     = '2';
 pt(324).size      = '[]';
 pt(324).isStruct  = false;
-pt(324).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P5';
-pt(324).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P5';
+pt(324).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P1';
+pt(324).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P1';
 pt(324).dtname     = 'real_T';
 
 
 
   
-pt(325).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
-pt(325).paramname = 'P6';
+pt(325).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
+pt(325).paramname = 'P2';
 pt(325).class     = 'scalar';
 pt(325).nrows     = 1;
 pt(325).ncols     = 1;
@@ -5196,15 +5196,15 @@ pt(325).subsource = 'SS_DOUBLE';
 pt(325).ndims     = '2';
 pt(325).size      = '[]';
 pt(325).isStruct  = false;
-pt(325).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P6';
-pt(325).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P6';
+pt(325).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P2';
+pt(325).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P2';
 pt(325).dtname     = 'real_T';
 
 
 
   
-pt(326).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
-pt(326).paramname = 'P1';
+pt(326).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
+pt(326).paramname = 'P3';
 pt(326).class     = 'scalar';
 pt(326).nrows     = 1;
 pt(326).ncols     = 1;
@@ -5212,15 +5212,15 @@ pt(326).subsource = 'SS_DOUBLE';
 pt(326).ndims     = '2';
 pt(326).size      = '[]';
 pt(326).isStruct  = false;
-pt(326).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P1';
-pt(326).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P1';
+pt(326).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P3';
+pt(326).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P3';
 pt(326).dtname     = 'real_T';
 
 
 
   
-pt(327).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
-pt(327).paramname = 'P2';
+pt(327).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
+pt(327).paramname = 'P4';
 pt(327).class     = 'scalar';
 pt(327).nrows     = 1;
 pt(327).ncols     = 1;
@@ -5228,15 +5228,15 @@ pt(327).subsource = 'SS_DOUBLE';
 pt(327).ndims     = '2';
 pt(327).size      = '[]';
 pt(327).isStruct  = false;
-pt(327).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P2';
-pt(327).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P2';
+pt(327).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P4';
+pt(327).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P4';
 pt(327).dtname     = 'real_T';
 
 
 
   
-pt(328).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
-pt(328).paramname = 'P3';
+pt(328).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
+pt(328).paramname = 'P5';
 pt(328).class     = 'scalar';
 pt(328).nrows     = 1;
 pt(328).ncols     = 1;
@@ -5244,15 +5244,15 @@ pt(328).subsource = 'SS_DOUBLE';
 pt(328).ndims     = '2';
 pt(328).size      = '[]';
 pt(328).isStruct  = false;
-pt(328).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P3';
-pt(328).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P3';
+pt(328).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P5';
+pt(328).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P5';
 pt(328).dtname     = 'real_T';
 
 
 
   
-pt(329).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
-pt(329).paramname = 'P4';
+pt(329).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 2';
+pt(329).paramname = 'P6';
 pt(329).class     = 'scalar';
 pt(329).nrows     = 1;
 pt(329).ncols     = 1;
@@ -5260,15 +5260,15 @@ pt(329).subsource = 'SS_DOUBLE';
 pt(329).ndims     = '2';
 pt(329).size      = '[]';
 pt(329).isStruct  = false;
-pt(329).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P4';
-pt(329).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P4';
+pt(329).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv32_P6';
+pt(329).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv32_P6';
 pt(329).dtname     = 'real_T';
 
 
 
   
-pt(330).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
-pt(330).paramname = 'P5';
+pt(330).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
+pt(330).paramname = 'P1';
 pt(330).class     = 'scalar';
 pt(330).nrows     = 1;
 pt(330).ncols     = 1;
@@ -5276,15 +5276,15 @@ pt(330).subsource = 'SS_DOUBLE';
 pt(330).ndims     = '2';
 pt(330).size      = '[]';
 pt(330).isStruct  = false;
-pt(330).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P5';
-pt(330).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P5';
+pt(330).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P1';
+pt(330).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P1';
 pt(330).dtname     = 'real_T';
 
 
 
   
-pt(331).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
-pt(331).paramname = 'P6';
+pt(331).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
+pt(331).paramname = 'P2';
 pt(331).class     = 'scalar';
 pt(331).nrows     = 1;
 pt(331).ncols     = 1;
@@ -5292,15 +5292,15 @@ pt(331).subsource = 'SS_DOUBLE';
 pt(331).ndims     = '2';
 pt(331).size      = '[]';
 pt(331).isStruct  = false;
-pt(331).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P6';
-pt(331).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P6';
+pt(331).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P2';
+pt(331).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P2';
 pt(331).dtname     = 'real_T';
 
 
 
   
-pt(332).blockname = 'Send Receive (v3) /ISR/doWhile/Read Int Status (v3) ';
-pt(332).paramname = 'P1';
+pt(332).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
+pt(332).paramname = 'P3';
 pt(332).class     = 'scalar';
 pt(332).nrows     = 1;
 pt(332).ncols     = 1;
@@ -5308,15 +5308,15 @@ pt(332).subsource = 'SS_DOUBLE';
 pt(332).ndims     = '2';
 pt(332).size      = '[]';
 pt(332).isStruct  = false;
-pt(332).symbol     = 'towTest_dualWinch_P.ReadIntStatusv3_P1';
-pt(332).baseaddr   = '&towTest_dualWinch_P.ReadIntStatusv3_P1';
+pt(332).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P3';
+pt(332).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P3';
 pt(332).dtname     = 'real_T';
 
 
 
   
-pt(333).blockname = 'Send Receive (v3) /ISR/doWhile/Read Int Status (v3) ';
-pt(333).paramname = 'P2';
+pt(333).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
+pt(333).paramname = 'P4';
 pt(333).class     = 'scalar';
 pt(333).nrows     = 1;
 pt(333).ncols     = 1;
@@ -5324,15 +5324,15 @@ pt(333).subsource = 'SS_DOUBLE';
 pt(333).ndims     = '2';
 pt(333).size      = '[]';
 pt(333).isStruct  = false;
-pt(333).symbol     = 'towTest_dualWinch_P.ReadIntStatusv3_P2';
-pt(333).baseaddr   = '&towTest_dualWinch_P.ReadIntStatusv3_P2';
+pt(333).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P4';
+pt(333).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P4';
 pt(333).dtname     = 'real_T';
 
 
 
   
-pt(334).blockname = 'Send Receive (v3) /ISR/doWhile/Read Int Status (v3) ';
-pt(334).paramname = 'P3';
+pt(334).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
+pt(334).paramname = 'P5';
 pt(334).class     = 'scalar';
 pt(334).nrows     = 1;
 pt(334).ncols     = 1;
@@ -5340,15 +5340,15 @@ pt(334).subsource = 'SS_DOUBLE';
 pt(334).ndims     = '2';
 pt(334).size      = '[]';
 pt(334).isStruct  = false;
-pt(334).symbol     = 'towTest_dualWinch_P.ReadIntStatusv3_P3';
-pt(334).baseaddr   = '&towTest_dualWinch_P.ReadIntStatusv3_P3';
+pt(334).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P5';
+pt(334).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P5';
 pt(334).dtname     = 'real_T';
 
 
 
   
-pt(335).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
-pt(335).paramname = 'P1';
+pt(335).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 3';
+pt(335).paramname = 'P6';
 pt(335).class     = 'scalar';
 pt(335).nrows     = 1;
 pt(335).ncols     = 1;
@@ -5356,15 +5356,15 @@ pt(335).subsource = 'SS_DOUBLE';
 pt(335).ndims     = '2';
 pt(335).size      = '[]';
 pt(335).isStruct  = false;
-pt(335).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P1';
-pt(335).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P1';
+pt(335).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv33_P6';
+pt(335).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv33_P6';
 pt(335).dtname     = 'real_T';
 
 
 
   
-pt(336).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
-pt(336).paramname = 'P2';
+pt(336).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
+pt(336).paramname = 'P1';
 pt(336).class     = 'scalar';
 pt(336).nrows     = 1;
 pt(336).ncols     = 1;
@@ -5372,15 +5372,15 @@ pt(336).subsource = 'SS_DOUBLE';
 pt(336).ndims     = '2';
 pt(336).size      = '[]';
 pt(336).isStruct  = false;
-pt(336).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P2';
-pt(336).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P2';
+pt(336).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P1';
+pt(336).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P1';
 pt(336).dtname     = 'real_T';
 
 
 
   
-pt(337).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
-pt(337).paramname = 'P3';
+pt(337).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
+pt(337).paramname = 'P2';
 pt(337).class     = 'scalar';
 pt(337).nrows     = 1;
 pt(337).ncols     = 1;
@@ -5388,15 +5388,15 @@ pt(337).subsource = 'SS_DOUBLE';
 pt(337).ndims     = '2';
 pt(337).size      = '[]';
 pt(337).isStruct  = false;
-pt(337).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P3';
-pt(337).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P3';
+pt(337).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P2';
+pt(337).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P2';
 pt(337).dtname     = 'real_T';
 
 
 
   
-pt(338).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
-pt(338).paramname = 'P4';
+pt(338).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
+pt(338).paramname = 'P3';
 pt(338).class     = 'scalar';
 pt(338).nrows     = 1;
 pt(338).ncols     = 1;
@@ -5404,15 +5404,15 @@ pt(338).subsource = 'SS_DOUBLE';
 pt(338).ndims     = '2';
 pt(338).size      = '[]';
 pt(338).isStruct  = false;
-pt(338).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P4';
-pt(338).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P4';
+pt(338).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P3';
+pt(338).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P3';
 pt(338).dtname     = 'real_T';
 
 
 
   
-pt(339).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
-pt(339).paramname = 'P5';
+pt(339).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
+pt(339).paramname = 'P4';
 pt(339).class     = 'scalar';
 pt(339).nrows     = 1;
 pt(339).ncols     = 1;
@@ -5420,15 +5420,15 @@ pt(339).subsource = 'SS_DOUBLE';
 pt(339).ndims     = '2';
 pt(339).size      = '[]';
 pt(339).isStruct  = false;
-pt(339).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P5';
-pt(339).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P5';
+pt(339).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P4';
+pt(339).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P4';
 pt(339).dtname     = 'real_T';
 
 
 
   
-pt(340).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
-pt(340).paramname = 'P6';
+pt(340).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
+pt(340).paramname = 'P5';
 pt(340).class     = 'scalar';
 pt(340).nrows     = 1;
 pt(340).ncols     = 1;
@@ -5436,15 +5436,15 @@ pt(340).subsource = 'SS_DOUBLE';
 pt(340).ndims     = '2';
 pt(340).size      = '[]';
 pt(340).isStruct  = false;
-pt(340).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P6';
-pt(340).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P6';
+pt(340).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P5';
+pt(340).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P5';
 pt(340).dtname     = 'real_T';
 
 
 
   
-pt(341).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
-pt(341).paramname = 'P1';
+pt(341).blockname = 'Send Receive (v3) /ISR/doWhile/Read HW FIFO (v3) 4';
+pt(341).paramname = 'P6';
 pt(341).class     = 'scalar';
 pt(341).nrows     = 1;
 pt(341).ncols     = 1;
@@ -5452,15 +5452,15 @@ pt(341).subsource = 'SS_DOUBLE';
 pt(341).ndims     = '2';
 pt(341).size      = '[]';
 pt(341).isStruct  = false;
-pt(341).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P1';
-pt(341).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P1';
+pt(341).symbol     = 'towTest_dualWinch_P.ReadHWFIFOv34_P6';
+pt(341).baseaddr   = '&towTest_dualWinch_P.ReadHWFIFOv34_P6';
 pt(341).dtname     = 'real_T';
 
 
 
   
-pt(342).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
-pt(342).paramname = 'P2';
+pt(342).blockname = 'Send Receive (v3) /ISR/doWhile/Read Int Status (v3) ';
+pt(342).paramname = 'P1';
 pt(342).class     = 'scalar';
 pt(342).nrows     = 1;
 pt(342).ncols     = 1;
@@ -5468,15 +5468,15 @@ pt(342).subsource = 'SS_DOUBLE';
 pt(342).ndims     = '2';
 pt(342).size      = '[]';
 pt(342).isStruct  = false;
-pt(342).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P2';
-pt(342).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P2';
+pt(342).symbol     = 'towTest_dualWinch_P.ReadIntStatusv3_P1';
+pt(342).baseaddr   = '&towTest_dualWinch_P.ReadIntStatusv3_P1';
 pt(342).dtname     = 'real_T';
 
 
 
   
-pt(343).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
-pt(343).paramname = 'P3';
+pt(343).blockname = 'Send Receive (v3) /ISR/doWhile/Read Int Status (v3) ';
+pt(343).paramname = 'P2';
 pt(343).class     = 'scalar';
 pt(343).nrows     = 1;
 pt(343).ncols     = 1;
@@ -5484,15 +5484,15 @@ pt(343).subsource = 'SS_DOUBLE';
 pt(343).ndims     = '2';
 pt(343).size      = '[]';
 pt(343).isStruct  = false;
-pt(343).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P3';
-pt(343).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P3';
+pt(343).symbol     = 'towTest_dualWinch_P.ReadIntStatusv3_P2';
+pt(343).baseaddr   = '&towTest_dualWinch_P.ReadIntStatusv3_P2';
 pt(343).dtname     = 'real_T';
 
 
 
   
-pt(344).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
-pt(344).paramname = 'P4';
+pt(344).blockname = 'Send Receive (v3) /ISR/doWhile/Read Int Status (v3) ';
+pt(344).paramname = 'P3';
 pt(344).class     = 'scalar';
 pt(344).nrows     = 1;
 pt(344).ncols     = 1;
@@ -5500,15 +5500,15 @@ pt(344).subsource = 'SS_DOUBLE';
 pt(344).ndims     = '2';
 pt(344).size      = '[]';
 pt(344).isStruct  = false;
-pt(344).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P4';
-pt(344).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P4';
+pt(344).symbol     = 'towTest_dualWinch_P.ReadIntStatusv3_P3';
+pt(344).baseaddr   = '&towTest_dualWinch_P.ReadIntStatusv3_P3';
 pt(344).dtname     = 'real_T';
 
 
 
   
-pt(345).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
-pt(345).paramname = 'P5';
+pt(345).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
+pt(345).paramname = 'P1';
 pt(345).class     = 'scalar';
 pt(345).nrows     = 1;
 pt(345).ncols     = 1;
@@ -5516,15 +5516,15 @@ pt(345).subsource = 'SS_DOUBLE';
 pt(345).ndims     = '2';
 pt(345).size      = '[]';
 pt(345).isStruct  = false;
-pt(345).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P5';
-pt(345).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P5';
+pt(345).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P1';
+pt(345).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P1';
 pt(345).dtname     = 'real_T';
 
 
 
   
-pt(346).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
-pt(346).paramname = 'P6';
+pt(346).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
+pt(346).paramname = 'P2';
 pt(346).class     = 'scalar';
 pt(346).nrows     = 1;
 pt(346).ncols     = 1;
@@ -5532,15 +5532,15 @@ pt(346).subsource = 'SS_DOUBLE';
 pt(346).ndims     = '2';
 pt(346).size      = '[]';
 pt(346).isStruct  = false;
-pt(346).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P6';
-pt(346).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P6';
+pt(346).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P2';
+pt(346).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P2';
 pt(346).dtname     = 'real_T';
 
 
 
   
-pt(347).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
-pt(347).paramname = 'P1';
+pt(347).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
+pt(347).paramname = 'P3';
 pt(347).class     = 'scalar';
 pt(347).nrows     = 1;
 pt(347).ncols     = 1;
@@ -5548,15 +5548,15 @@ pt(347).subsource = 'SS_DOUBLE';
 pt(347).ndims     = '2';
 pt(347).size      = '[]';
 pt(347).isStruct  = false;
-pt(347).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P1';
-pt(347).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P1';
+pt(347).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P3';
+pt(347).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P3';
 pt(347).dtname     = 'real_T';
 
 
 
   
-pt(348).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
-pt(348).paramname = 'P2';
+pt(348).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
+pt(348).paramname = 'P4';
 pt(348).class     = 'scalar';
 pt(348).nrows     = 1;
 pt(348).ncols     = 1;
@@ -5564,15 +5564,15 @@ pt(348).subsource = 'SS_DOUBLE';
 pt(348).ndims     = '2';
 pt(348).size      = '[]';
 pt(348).isStruct  = false;
-pt(348).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P2';
-pt(348).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P2';
+pt(348).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P4';
+pt(348).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P4';
 pt(348).dtname     = 'real_T';
 
 
 
   
-pt(349).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
-pt(349).paramname = 'P3';
+pt(349).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
+pt(349).paramname = 'P5';
 pt(349).class     = 'scalar';
 pt(349).nrows     = 1;
 pt(349).ncols     = 1;
@@ -5580,15 +5580,15 @@ pt(349).subsource = 'SS_DOUBLE';
 pt(349).ndims     = '2';
 pt(349).size      = '[]';
 pt(349).isStruct  = false;
-pt(349).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P3';
-pt(349).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P3';
+pt(349).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P5';
+pt(349).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P5';
 pt(349).dtname     = 'real_T';
 
 
 
   
-pt(350).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
-pt(350).paramname = 'P4';
+pt(350).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 1';
+pt(350).paramname = 'P6';
 pt(350).class     = 'scalar';
 pt(350).nrows     = 1;
 pt(350).ncols     = 1;
@@ -5596,15 +5596,15 @@ pt(350).subsource = 'SS_DOUBLE';
 pt(350).ndims     = '2';
 pt(350).size      = '[]';
 pt(350).isStruct  = false;
-pt(350).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P4';
-pt(350).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P4';
+pt(350).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv31_P6';
+pt(350).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv31_P6';
 pt(350).dtname     = 'real_T';
 
 
 
   
-pt(351).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
-pt(351).paramname = 'P5';
+pt(351).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
+pt(351).paramname = 'P1';
 pt(351).class     = 'scalar';
 pt(351).nrows     = 1;
 pt(351).ncols     = 1;
@@ -5612,15 +5612,15 @@ pt(351).subsource = 'SS_DOUBLE';
 pt(351).ndims     = '2';
 pt(351).size      = '[]';
 pt(351).isStruct  = false;
-pt(351).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P5';
-pt(351).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P5';
+pt(351).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P1';
+pt(351).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P1';
 pt(351).dtname     = 'real_T';
 
 
 
   
-pt(352).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
-pt(352).paramname = 'P6';
+pt(352).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
+pt(352).paramname = 'P2';
 pt(352).class     = 'scalar';
 pt(352).nrows     = 1;
 pt(352).ncols     = 1;
@@ -5628,15 +5628,15 @@ pt(352).subsource = 'SS_DOUBLE';
 pt(352).ndims     = '2';
 pt(352).size      = '[]';
 pt(352).isStruct  = false;
-pt(352).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P6';
-pt(352).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P6';
+pt(352).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P2';
+pt(352).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P2';
 pt(352).dtname     = 'real_T';
 
 
 
   
-pt(353).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
-pt(353).paramname = 'P1';
+pt(353).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
+pt(353).paramname = 'P3';
 pt(353).class     = 'scalar';
 pt(353).nrows     = 1;
 pt(353).ncols     = 1;
@@ -5644,15 +5644,15 @@ pt(353).subsource = 'SS_DOUBLE';
 pt(353).ndims     = '2';
 pt(353).size      = '[]';
 pt(353).isStruct  = false;
-pt(353).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P1';
-pt(353).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P1';
+pt(353).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P3';
+pt(353).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P3';
 pt(353).dtname     = 'real_T';
 
 
 
   
-pt(354).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
-pt(354).paramname = 'P2';
+pt(354).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
+pt(354).paramname = 'P4';
 pt(354).class     = 'scalar';
 pt(354).nrows     = 1;
 pt(354).ncols     = 1;
@@ -5660,15 +5660,15 @@ pt(354).subsource = 'SS_DOUBLE';
 pt(354).ndims     = '2';
 pt(354).size      = '[]';
 pt(354).isStruct  = false;
-pt(354).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P2';
-pt(354).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P2';
+pt(354).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P4';
+pt(354).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P4';
 pt(354).dtname     = 'real_T';
 
 
 
   
-pt(355).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
-pt(355).paramname = 'P3';
+pt(355).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
+pt(355).paramname = 'P5';
 pt(355).class     = 'scalar';
 pt(355).nrows     = 1;
 pt(355).ncols     = 1;
@@ -5676,15 +5676,15 @@ pt(355).subsource = 'SS_DOUBLE';
 pt(355).ndims     = '2';
 pt(355).size      = '[]';
 pt(355).isStruct  = false;
-pt(355).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P3';
-pt(355).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P3';
+pt(355).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P5';
+pt(355).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P5';
 pt(355).dtname     = 'real_T';
 
 
 
   
-pt(356).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
-pt(356).paramname = 'P4';
+pt(356).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 2';
+pt(356).paramname = 'P6';
 pt(356).class     = 'scalar';
 pt(356).nrows     = 1;
 pt(356).ncols     = 1;
@@ -5692,15 +5692,15 @@ pt(356).subsource = 'SS_DOUBLE';
 pt(356).ndims     = '2';
 pt(356).size      = '[]';
 pt(356).isStruct  = false;
-pt(356).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P4';
-pt(356).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P4';
+pt(356).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv32_P6';
+pt(356).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv32_P6';
 pt(356).dtname     = 'real_T';
 
 
 
   
-pt(357).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
-pt(357).paramname = 'P5';
+pt(357).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
+pt(357).paramname = 'P1';
 pt(357).class     = 'scalar';
 pt(357).nrows     = 1;
 pt(357).ncols     = 1;
@@ -5708,15 +5708,15 @@ pt(357).subsource = 'SS_DOUBLE';
 pt(357).ndims     = '2';
 pt(357).size      = '[]';
 pt(357).isStruct  = false;
-pt(357).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P5';
-pt(357).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P5';
+pt(357).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P1';
+pt(357).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P1';
 pt(357).dtname     = 'real_T';
 
 
 
   
-pt(358).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
-pt(358).paramname = 'P6';
+pt(358).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
+pt(358).paramname = 'P2';
 pt(358).class     = 'scalar';
 pt(358).nrows     = 1;
 pt(358).ncols     = 1;
@@ -5724,11 +5724,171 @@ pt(358).subsource = 'SS_DOUBLE';
 pt(358).ndims     = '2';
 pt(358).size      = '[]';
 pt(358).isStruct  = false;
-pt(358).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P6';
-pt(358).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P6';
+pt(358).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P2';
+pt(358).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P2';
 pt(358).dtname     = 'real_T';
 
 
+
+  
+pt(359).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
+pt(359).paramname = 'P3';
+pt(359).class     = 'scalar';
+pt(359).nrows     = 1;
+pt(359).ncols     = 1;
+pt(359).subsource = 'SS_DOUBLE';
+pt(359).ndims     = '2';
+pt(359).size      = '[]';
+pt(359).isStruct  = false;
+pt(359).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P3';
+pt(359).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P3';
+pt(359).dtname     = 'real_T';
+
+
+
+  
+pt(360).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
+pt(360).paramname = 'P4';
+pt(360).class     = 'scalar';
+pt(360).nrows     = 1;
+pt(360).ncols     = 1;
+pt(360).subsource = 'SS_DOUBLE';
+pt(360).ndims     = '2';
+pt(360).size      = '[]';
+pt(360).isStruct  = false;
+pt(360).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P4';
+pt(360).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P4';
+pt(360).dtname     = 'real_T';
+
+
+
+  
+pt(361).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
+pt(361).paramname = 'P5';
+pt(361).class     = 'scalar';
+pt(361).nrows     = 1;
+pt(361).ncols     = 1;
+pt(361).subsource = 'SS_DOUBLE';
+pt(361).ndims     = '2';
+pt(361).size      = '[]';
+pt(361).isStruct  = false;
+pt(361).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P5';
+pt(361).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P5';
+pt(361).dtname     = 'real_T';
+
+
+
+  
+pt(362).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 3';
+pt(362).paramname = 'P6';
+pt(362).class     = 'scalar';
+pt(362).nrows     = 1;
+pt(362).ncols     = 1;
+pt(362).subsource = 'SS_DOUBLE';
+pt(362).ndims     = '2';
+pt(362).size      = '[]';
+pt(362).isStruct  = false;
+pt(362).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv33_P6';
+pt(362).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv33_P6';
+pt(362).dtname     = 'real_T';
+
+
+
+  
+pt(363).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
+pt(363).paramname = 'P1';
+pt(363).class     = 'scalar';
+pt(363).nrows     = 1;
+pt(363).ncols     = 1;
+pt(363).subsource = 'SS_DOUBLE';
+pt(363).ndims     = '2';
+pt(363).size      = '[]';
+pt(363).isStruct  = false;
+pt(363).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P1';
+pt(363).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P1';
+pt(363).dtname     = 'real_T';
+
+
+
+  
+pt(364).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
+pt(364).paramname = 'P2';
+pt(364).class     = 'scalar';
+pt(364).nrows     = 1;
+pt(364).ncols     = 1;
+pt(364).subsource = 'SS_DOUBLE';
+pt(364).ndims     = '2';
+pt(364).size      = '[]';
+pt(364).isStruct  = false;
+pt(364).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P2';
+pt(364).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P2';
+pt(364).dtname     = 'real_T';
+
+
+
+  
+pt(365).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
+pt(365).paramname = 'P3';
+pt(365).class     = 'scalar';
+pt(365).nrows     = 1;
+pt(365).ncols     = 1;
+pt(365).subsource = 'SS_DOUBLE';
+pt(365).ndims     = '2';
+pt(365).size      = '[]';
+pt(365).isStruct  = false;
+pt(365).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P3';
+pt(365).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P3';
+pt(365).dtname     = 'real_T';
+
+
+
+  
+pt(366).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
+pt(366).paramname = 'P4';
+pt(366).class     = 'scalar';
+pt(366).nrows     = 1;
+pt(366).ncols     = 1;
+pt(366).subsource = 'SS_DOUBLE';
+pt(366).ndims     = '2';
+pt(366).size      = '[]';
+pt(366).isStruct  = false;
+pt(366).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P4';
+pt(366).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P4';
+pt(366).dtname     = 'real_T';
+
+
+
+  
+pt(367).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
+pt(367).paramname = 'P5';
+pt(367).class     = 'scalar';
+pt(367).nrows     = 1;
+pt(367).ncols     = 1;
+pt(367).subsource = 'SS_DOUBLE';
+pt(367).ndims     = '2';
+pt(367).size      = '[]';
+pt(367).isStruct  = false;
+pt(367).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P5';
+pt(367).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P5';
+pt(367).dtname     = 'real_T';
+
+
+
+  
+pt(368).blockname = 'Send Receive (v3) /ISR/doWhile/Write HW FIFO (v3) 4';
+pt(368).paramname = 'P6';
+pt(368).class     = 'scalar';
+pt(368).nrows     = 1;
+pt(368).ncols     = 1;
+pt(368).subsource = 'SS_DOUBLE';
+pt(368).ndims     = '2';
+pt(368).size      = '[]';
+pt(368).isStruct  = false;
+pt(368).symbol     = 'towTest_dualWinch_P.WriteHWFIFOv34_P6';
+pt(368).baseaddr   = '&towTest_dualWinch_P.WriteHWFIFOv34_P6';
+pt(368).dtname     = 'real_T';
+
+
 function len = getlenPT
-len = 358;
+len = 368;
 

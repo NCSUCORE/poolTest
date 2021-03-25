@@ -2447,6 +2447,198 @@ and Hold1</Name>
 
 		</SubSystem>
 		<SubSystem>
+		<Name>Tension Calculation</Name>
+		<xPCName>towTest_dualWinch/Tension Calculation</xPCName>
+				<SubSystem>
+		<Name>Scope 5</Name>
+		<xPCName>towTest_dualWinch/Tension Calculation/Scope 5</xPCName>
+		
+		
+
+		</SubSystem>
+
+		
+            <block>
+            <blkName>Gain</blkName>
+            <xpcblkName>Tension Calculation/Gain</xpcblkName>
+            <SLblockPath>towTest_dualWinch/Tension Calculation/Gain</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain1</blkName>
+            <xpcblkName>Tension Calculation/Gain1</xpcblkName>
+            <SLblockPath>towTest_dualWinch/Tension Calculation/Gain1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain2</blkName>
+            <xpcblkName>Tension Calculation/Gain2</xpcblkName>
+            <SLblockPath>towTest_dualWinch/Tension Calculation/Gain2</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>Gain3</blkName>
+            <xpcblkName>Tension Calculation/Gain3</xpcblkName>
+            <SLblockPath>towTest_dualWinch/Tension Calculation/Gain3</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>Gain</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>ASCII Decode 1</blkName>
+            <xpcblkName>Tension Calculation/ASCII Decode 1</xpcblkName>
+            <SLblockPath>towTest_dualWinch/Tension Calculation/ASCII Decode 1</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 5]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          </block>
+            <block>
+            <blkName>ASCII Decode 4</blkName>
+            <xpcblkName>Tension Calculation/ASCII Decode 4</xpcblkName>
+            <SLblockPath>towTest_dualWinch/Tension Calculation/ASCII Decode 4</SLblockPath>
+            <isSrc>[0 1 1]</isSrc>
+          <parameter>
+          <paramName>P1</paramName>
+          <dim>[1, 5]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P2</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          <parameter>
+          <paramName>P3</paramName>
+          <dim>[1, 1]</dim>  
+		  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+          </parameter>
+          </block>
+			  
+			  
+              <signal>
+              <sigName>Cast To Double</sigName>
+              <xpcsigName>Tension Calculation/Cast To Double</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Cast To Double1</sigName>
+              <xpcsigName>Tension Calculation/Cast To Double1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain</sigName>
+              <xpcsigName>Tension Calculation/Gain</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain1</sigName>
+              <xpcsigName>Tension Calculation/Gain1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain2</sigName>
+              <xpcsigName>Tension Calculation/Gain2</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+                <sigLabel>tenRawV</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Gain3</sigName>
+              <xpcsigName>Tension Calculation/Gain3</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+                <sigLabel>tenNewton</sigLabel>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>ASCII Decode 1</sigName>
+              <xpcsigName>Tension Calculation/ASCII Decode 1</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>ASCII Decode 4</sigName>
+              <xpcsigName>Tension Calculation/ASCII Decode 4</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>Add</sigName>
+              <xpcsigName>Tension Calculation/Add</xpcsigName>
+              <sigWidth>1</sigWidth>
+              <sigDim>[1, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch/Tension Calculation</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+
+		</SubSystem>
+		<SubSystem>
 		<Name>TriangleWave</Name>
 		<xPCName>towTest_dualWinch/TriangleWave</xPCName>
 				<SubSystem>
@@ -3066,7 +3258,7 @@ Function</sigName>
             <blkName>FIFO ASCII read 2</blkName>
             <xpcblkName>FIFO ASCII read 2</xpcblkName>
             <SLblockPath>towTest_dualWinch/FIFO ASCII read 2</SLblockPath>
-            <isSrc>[0 1 4]</isSrc>
+            <isSrc>[0 1 6]</isSrc>
           <parameter>
           <paramName>P1</paramName>
           <dim>[1, 1]</dim>  
@@ -3084,12 +3276,12 @@ Function</sigName>
           </parameter>
           <parameter>
           <paramName>P4</paramName>
-          <dim>[4, 1]</dim>  
+          <dim>[6, 1]</dim>  
 		  <SubSystemName>towTest_dualWinch</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P5</paramName>
-          <dim>[1, 4]</dim>  
+          <dim>[1, 6]</dim>  
 		  <SubSystemName>towTest_dualWinch</SubSystemName>
           </parameter>
           <parameter>
@@ -3659,8 +3851,8 @@ Function</sigName>
               <signal>
               <sigName>FIFO ASCII read 2/p1</sigName>
               <xpcsigName>FIFO ASCII read 2/p1</xpcsigName>
-              <sigWidth>1025</sigWidth>
-              <sigDim>[1025, 1]</sigDim>
+              <sigWidth>257</sigWidth>
+              <sigDim>[257, 1]</sigDim>
 			  <SubSystemName>towTest_dualWinch</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
@@ -3669,8 +3861,8 @@ Function</sigName>
               <signal>
               <sigName>FIFO ASCII read 2/p2</sigName>
               <xpcsigName>FIFO ASCII read 2/p2</xpcsigName>
-              <sigWidth>1025</sigWidth>
-              <sigDim>[1025, 1]</sigDim>
+              <sigWidth>257</sigWidth>
+              <sigDim>[257, 1]</sigDim>
 			  <SubSystemName>towTest_dualWinch</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
@@ -3679,8 +3871,8 @@ Function</sigName>
               <signal>
               <sigName>FIFO ASCII read 2/p3</sigName>
               <xpcsigName>FIFO ASCII read 2/p3</xpcsigName>
-              <sigWidth>1025</sigWidth>
-              <sigDim>[1025, 1]</sigDim>
+              <sigWidth>257</sigWidth>
+              <sigDim>[257, 1]</sigDim>
 			  <SubSystemName>towTest_dualWinch</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
@@ -3689,8 +3881,28 @@ Function</sigName>
               <signal>
               <sigName>FIFO ASCII read 2/p4</sigName>
               <xpcsigName>FIFO ASCII read 2/p4</xpcsigName>
-              <sigWidth>1025</sigWidth>
-              <sigDim>[1025, 1]</sigDim>
+              <sigWidth>257</sigWidth>
+              <sigDim>[257, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>FIFO ASCII read 2/p5</sigName>
+              <xpcsigName>FIFO ASCII read 2/p5</xpcsigName>
+              <sigWidth>257</sigWidth>
+              <sigDim>[257, 1]</sigDim>
+			  <SubSystemName>towTest_dualWinch</SubSystemName>
+			  <sigTestPoint>false</sigTestPoint>
+            </signal>
+			  
+			  
+              <signal>
+              <sigName>FIFO ASCII read 2/p6</sigName>
+              <xpcsigName>FIFO ASCII read 2/p6</xpcsigName>
+              <sigWidth>257</sigWidth>
+              <sigDim>[257, 1]</sigDim>
 			  <SubSystemName>towTest_dualWinch</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
