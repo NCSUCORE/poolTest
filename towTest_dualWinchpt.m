@@ -1635,7 +1635,7 @@ pt(102).dtname     = 'real_T';
 
 
   
-pt(103).blockname = 'LAS Calculation /Azimuth offset';
+pt(103).blockname = 'LAS_Calculation/Az_deg_calib';
 pt(103).paramname = 'Value';
 pt(103).class     = 'scalar';
 pt(103).nrows     = 1;
@@ -1644,14 +1644,14 @@ pt(103).subsource = 'SS_DOUBLE';
 pt(103).ndims     = '2';
 pt(103).size      = '[]';
 pt(103).isStruct  = false;
-pt(103).symbol     = 'towTest_dualWinch_P.Azimuthoffset_Value';
-pt(103).baseaddr   = '&towTest_dualWinch_P.Azimuthoffset_Value';
+pt(103).symbol     = 'towTest_dualWinch_P.Az_deg_calib_Value';
+pt(103).baseaddr   = '&towTest_dualWinch_P.Az_deg_calib_Value';
 pt(103).dtname     = 'real_T';
 
 
 
   
-pt(104).blockname = 'LAS Calculation /Constant';
+pt(104).blockname = 'LAS_Calculation/Constant';
 pt(104).paramname = 'Value';
 pt(104).class     = 'scalar';
 pt(104).nrows     = 1;
@@ -1667,7 +1667,7 @@ pt(104).dtname     = 'real_T';
 
 
   
-pt(105).blockname = 'LAS Calculation /Constant1';
+pt(105).blockname = 'LAS_Calculation/Constant1';
 pt(105).paramname = 'Value';
 pt(105).class     = 'scalar';
 pt(105).nrows     = 1;
@@ -1683,7 +1683,7 @@ pt(105).dtname     = 'real_T';
 
 
   
-pt(106).blockname = 'LAS Calculation /Constant2';
+pt(106).blockname = 'LAS_Calculation/Constant2';
 pt(106).paramname = 'Value';
 pt(106).class     = 'scalar';
 pt(106).nrows     = 1;
@@ -1699,7 +1699,7 @@ pt(106).dtname     = 'real_T';
 
 
   
-pt(107).blockname = 'LAS Calculation /Constant3';
+pt(107).blockname = 'LAS_Calculation/Constant3';
 pt(107).paramname = 'Value';
 pt(107).class     = 'scalar';
 pt(107).nrows     = 1;
@@ -1715,7 +1715,7 @@ pt(107).dtname     = 'real_T';
 
 
   
-pt(108).blockname = 'LAS Calculation /Elevation offset';
+pt(108).blockname = 'LAS_Calculation/El_deg_calib';
 pt(108).paramname = 'Value';
 pt(108).class     = 'scalar';
 pt(108).nrows     = 1;
@@ -1724,14 +1724,14 @@ pt(108).subsource = 'SS_DOUBLE';
 pt(108).ndims     = '2';
 pt(108).size      = '[]';
 pt(108).isStruct  = false;
-pt(108).symbol     = 'towTest_dualWinch_P.Elevationoffset_Value';
-pt(108).baseaddr   = '&towTest_dualWinch_P.Elevationoffset_Value';
+pt(108).symbol     = 'towTest_dualWinch_P.El_deg_calib_Value';
+pt(108).baseaddr   = '&towTest_dualWinch_P.El_deg_calib_Value';
 pt(108).dtname     = 'real_T';
 
 
 
   
-pt(109).blockname = 'LAS Calculation /Gain';
+pt(109).blockname = 'LAS_Calculation/Gain';
 pt(109).paramname = 'Gain';
 pt(109).class     = 'scalar';
 pt(109).nrows     = 1;
@@ -1747,7 +1747,7 @@ pt(109).dtname     = 'real_T';
 
 
   
-pt(110).blockname = 'LAS Calculation /Gain1';
+pt(110).blockname = 'LAS_Calculation/Gain1';
 pt(110).paramname = 'Gain';
 pt(110).class     = 'scalar';
 pt(110).nrows     = 1;
@@ -1763,7 +1763,7 @@ pt(110).dtname     = 'real_T';
 
 
   
-pt(111).blockname = 'LAS Calculation /Gain2';
+pt(111).blockname = 'LAS_Calculation/Gain2';
 pt(111).paramname = 'Gain';
 pt(111).class     = 'scalar';
 pt(111).nrows     = 1;
@@ -1779,7 +1779,7 @@ pt(111).dtname     = 'real_T';
 
 
   
-pt(112).blockname = 'LAS Calculation /Gain3';
+pt(112).blockname = 'LAS_Calculation/Gain3';
 pt(112).paramname = 'Gain';
 pt(112).class     = 'scalar';
 pt(112).nrows     = 1;
@@ -1795,7 +1795,7 @@ pt(112).dtname     = 'real_T';
 
 
   
-pt(113).blockname = 'LAS Calculation /Gain4';
+pt(113).blockname = 'LAS_Calculation/Gain4';
 pt(113).paramname = 'Gain';
 pt(113).class     = 'scalar';
 pt(113).nrows     = 1;
@@ -1811,7 +1811,7 @@ pt(113).dtname     = 'real_T';
 
 
   
-pt(114).blockname = 'LAS Calculation /Gain5';
+pt(114).blockname = 'LAS_Calculation/Gain5';
 pt(114).paramname = 'Gain';
 pt(114).class     = 'scalar';
 pt(114).nrows     = 1;
@@ -1827,7 +1827,7 @@ pt(114).dtname     = 'real_T';
 
 
   
-pt(115).blockname = 'LAS Calculation /Multiply';
+pt(115).blockname = 'LAS_Calculation/Multiply';
 pt(115).paramname = 'Gain';
 pt(115).class     = 'scalar';
 pt(115).nrows     = 1;
@@ -1843,7 +1843,7 @@ pt(115).dtname     = 'real_T';
 
 
   
-pt(116).blockname = 'LAS Calculation /Multiply1';
+pt(116).blockname = 'LAS_Calculation/Multiply1';
 pt(116).paramname = 'Gain';
 pt(116).class     = 'scalar';
 pt(116).nrows     = 1;
@@ -1859,7 +1859,7 @@ pt(116).dtname     = 'real_T';
 
 
   
-pt(117).blockname = 'LAS Calculation /ASCII Decode 1';
+pt(117).blockname = 'LAS_Calculation/ASCII Decode 1';
 pt(117).paramname = 'P1';
 pt(117).class     = 'vector';
 pt(117).nrows     = 1;
@@ -1875,7 +1875,7 @@ pt(117).dtname     = 'real_T';
 
 
   
-pt(118).blockname = 'LAS Calculation /ASCII Decode 1';
+pt(118).blockname = 'LAS_Calculation/ASCII Decode 1';
 pt(118).paramname = 'P2';
 pt(118).class     = 'scalar';
 pt(118).nrows     = 1;
@@ -1891,7 +1891,7 @@ pt(118).dtname     = 'real_T';
 
 
   
-pt(119).blockname = 'LAS Calculation /ASCII Decode 1';
+pt(119).blockname = 'LAS_Calculation/ASCII Decode 1';
 pt(119).paramname = 'P3';
 pt(119).class     = 'scalar';
 pt(119).nrows     = 1;
@@ -1907,7 +1907,7 @@ pt(119).dtname     = 'real_T';
 
 
   
-pt(120).blockname = 'LAS Calculation /ASCII Decode 4';
+pt(120).blockname = 'LAS_Calculation/ASCII Decode 4';
 pt(120).paramname = 'P1';
 pt(120).class     = 'vector';
 pt(120).nrows     = 1;
@@ -1923,7 +1923,7 @@ pt(120).dtname     = 'real_T';
 
 
   
-pt(121).blockname = 'LAS Calculation /ASCII Decode 4';
+pt(121).blockname = 'LAS_Calculation/ASCII Decode 4';
 pt(121).paramname = 'P2';
 pt(121).class     = 'scalar';
 pt(121).nrows     = 1;
@@ -1939,7 +1939,7 @@ pt(121).dtname     = 'real_T';
 
 
   
-pt(122).blockname = 'LAS Calculation /ASCII Decode 4';
+pt(122).blockname = 'LAS_Calculation/ASCII Decode 4';
 pt(122).paramname = 'P3';
 pt(122).class     = 'scalar';
 pt(122).nrows     = 1;
@@ -1955,7 +1955,7 @@ pt(122).dtname     = 'real_T';
 
 
   
-pt(123).blockname = 'LAS Calculation /ASCII Decode 5';
+pt(123).blockname = 'LAS_Calculation/ASCII Decode 5';
 pt(123).paramname = 'P1';
 pt(123).class     = 'vector';
 pt(123).nrows     = 1;
@@ -1971,7 +1971,7 @@ pt(123).dtname     = 'real_T';
 
 
   
-pt(124).blockname = 'LAS Calculation /ASCII Decode 5';
+pt(124).blockname = 'LAS_Calculation/ASCII Decode 5';
 pt(124).paramname = 'P2';
 pt(124).class     = 'scalar';
 pt(124).nrows     = 1;
@@ -1987,7 +1987,7 @@ pt(124).dtname     = 'real_T';
 
 
   
-pt(125).blockname = 'LAS Calculation /ASCII Decode 5';
+pt(125).blockname = 'LAS_Calculation/ASCII Decode 5';
 pt(125).paramname = 'P3';
 pt(125).class     = 'scalar';
 pt(125).nrows     = 1;
@@ -2003,7 +2003,7 @@ pt(125).dtname     = 'real_T';
 
 
   
-pt(126).blockname = 'LAS Calculation /ASCII Decode 6';
+pt(126).blockname = 'LAS_Calculation/ASCII Decode 6';
 pt(126).paramname = 'P1';
 pt(126).class     = 'vector';
 pt(126).nrows     = 1;
@@ -2019,7 +2019,7 @@ pt(126).dtname     = 'real_T';
 
 
   
-pt(127).blockname = 'LAS Calculation /ASCII Decode 6';
+pt(127).blockname = 'LAS_Calculation/ASCII Decode 6';
 pt(127).paramname = 'P2';
 pt(127).class     = 'scalar';
 pt(127).nrows     = 1;
@@ -2035,7 +2035,7 @@ pt(127).dtname     = 'real_T';
 
 
   
-pt(128).blockname = 'LAS Calculation /ASCII Decode 6';
+pt(128).blockname = 'LAS_Calculation/ASCII Decode 6';
 pt(128).paramname = 'P3';
 pt(128).class     = 'scalar';
 pt(128).nrows     = 1;

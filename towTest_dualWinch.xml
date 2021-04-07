@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?><Root>
       		<SubSystem>
-		<Name>LAS Calculation </Name>
-		<xPCName>towTest_dualWinch/LAS Calculation </xPCName>
+		<Name>LAS_Calculation</Name>
+		<xPCName>towTest_dualWinch/LAS_Calculation</xPCName>
 				<SubSystem>
 		<Name>Scope 3</Name>
-		<xPCName>towTest_dualWinch/LAS Calculation /Scope 3</xPCName>
+		<xPCName>towTest_dualWinch/LAS_Calculation/Scope 3</xPCName>
 		
 		
 
 		</SubSystem>
 		<SubSystem>
 		<Name>LAS Measurement Corrections</Name>
-		<xPCName>towTest_dualWinch/LAS Calculation /LAS Measurement Corrections</xPCName>
+		<xPCName>towTest_dualWinch/LAS_Calculation/LAS Measurement Corrections</xPCName>
 		
 		
 
@@ -19,311 +19,311 @@
 
 		
             <block>
-            <blkName>Azimuth offset</blkName>
-            <xpcblkName>LAS Calculation /Azimuth offset</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Azimuth offset</SLblockPath>
+            <blkName>Az_deg_calib</blkName>
+            <xpcblkName>LAS_Calculation/Az_deg_calib</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Az_deg_calib</SLblockPath>
             <isSrc>[1 0 1]</isSrc>
           <parameter>
           <paramName>Value</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Constant</blkName>
-            <xpcblkName>LAS Calculation /Constant</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Constant</SLblockPath>
+            <xpcblkName>LAS_Calculation/Constant</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Constant</SLblockPath>
             <isSrc>[1 0 1]</isSrc>
           <parameter>
           <paramName>Value</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Constant1</blkName>
-            <xpcblkName>LAS Calculation /Constant1</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Constant1</SLblockPath>
+            <xpcblkName>LAS_Calculation/Constant1</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Constant1</SLblockPath>
             <isSrc>[1 0 1]</isSrc>
           <parameter>
           <paramName>Value</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Constant2</blkName>
-            <xpcblkName>LAS Calculation /Constant2</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Constant2</SLblockPath>
+            <xpcblkName>LAS_Calculation/Constant2</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Constant2</SLblockPath>
             <isSrc>[1 0 1]</isSrc>
           <parameter>
           <paramName>Value</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Constant3</blkName>
-            <xpcblkName>LAS Calculation /Constant3</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Constant3</SLblockPath>
+            <xpcblkName>LAS_Calculation/Constant3</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Constant3</SLblockPath>
             <isSrc>[1 0 1]</isSrc>
           <parameter>
           <paramName>Value</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
-            <blkName>Elevation offset</blkName>
-            <xpcblkName>LAS Calculation /Elevation offset</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Elevation offset</SLblockPath>
+            <blkName>El_deg_calib</blkName>
+            <xpcblkName>LAS_Calculation/El_deg_calib</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/El_deg_calib</SLblockPath>
             <isSrc>[1 0 1]</isSrc>
           <parameter>
           <paramName>Value</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Gain</blkName>
-            <xpcblkName>LAS Calculation /Gain</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Gain</SLblockPath>
+            <xpcblkName>LAS_Calculation/Gain</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Gain</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>Gain</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Gain1</blkName>
-            <xpcblkName>LAS Calculation /Gain1</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Gain1</SLblockPath>
+            <xpcblkName>LAS_Calculation/Gain1</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Gain1</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>Gain</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Gain2</blkName>
-            <xpcblkName>LAS Calculation /Gain2</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Gain2</SLblockPath>
+            <xpcblkName>LAS_Calculation/Gain2</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Gain2</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>Gain</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Gain3</blkName>
-            <xpcblkName>LAS Calculation /Gain3</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Gain3</SLblockPath>
+            <xpcblkName>LAS_Calculation/Gain3</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Gain3</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>Gain</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Gain4</blkName>
-            <xpcblkName>LAS Calculation /Gain4</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Gain4</SLblockPath>
+            <xpcblkName>LAS_Calculation/Gain4</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Gain4</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>Gain</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Gain5</blkName>
-            <xpcblkName>LAS Calculation /Gain5</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Gain5</SLblockPath>
+            <xpcblkName>LAS_Calculation/Gain5</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Gain5</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>Gain</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Multiply</blkName>
-            <xpcblkName>LAS Calculation /Multiply</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Multiply</SLblockPath>
+            <xpcblkName>LAS_Calculation/Multiply</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Multiply</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>Gain</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>Multiply1</blkName>
-            <xpcblkName>LAS Calculation /Multiply1</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /Multiply1</SLblockPath>
+            <xpcblkName>LAS_Calculation/Multiply1</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/Multiply1</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>Gain</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>ASCII Decode 1</blkName>
-            <xpcblkName>LAS Calculation /ASCII Decode 1</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /ASCII Decode 1</SLblockPath>
+            <xpcblkName>LAS_Calculation/ASCII Decode 1</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/ASCII Decode 1</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>P1</paramName>
           <dim>[1, 5]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P2</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P3</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>ASCII Decode 4</blkName>
-            <xpcblkName>LAS Calculation /ASCII Decode 4</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /ASCII Decode 4</SLblockPath>
+            <xpcblkName>LAS_Calculation/ASCII Decode 4</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/ASCII Decode 4</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>P1</paramName>
           <dim>[1, 5]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P2</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P3</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>ASCII Decode 5</blkName>
-            <xpcblkName>LAS Calculation /ASCII Decode 5</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /ASCII Decode 5</SLblockPath>
+            <xpcblkName>LAS_Calculation/ASCII Decode 5</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/ASCII Decode 5</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>P1</paramName>
           <dim>[1, 5]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P2</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P3</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
             <block>
             <blkName>ASCII Decode 6</blkName>
-            <xpcblkName>LAS Calculation /ASCII Decode 6</xpcblkName>
-            <SLblockPath>towTest_dualWinch/LAS Calculation /ASCII Decode 6</SLblockPath>
+            <xpcblkName>LAS_Calculation/ASCII Decode 6</xpcblkName>
+            <SLblockPath>towTest_dualWinch/LAS_Calculation/ASCII Decode 6</SLblockPath>
             <isSrc>[0 1 1]</isSrc>
           <parameter>
           <paramName>P1</paramName>
           <dim>[1, 5]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P2</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           <parameter>
           <paramName>P3</paramName>
           <dim>[1, 1]</dim>  
-		  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+		  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
           </parameter>
           </block>
 			  
 			  
               <signal>
               <sigName>LAS Measurement Corrections/p1</sigName>
-              <xpcsigName>LAS Calculation /LAS Measurement Corrections/p1</xpcsigName>
+              <xpcsigName>LAS_Calculation/LAS Measurement Corrections/p1</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>LAS Measurement Corrections/p2</sigName>
-              <xpcsigName>LAS Calculation /LAS Measurement Corrections/p2</xpcsigName>
+              <xpcsigName>LAS_Calculation/LAS Measurement Corrections/p2</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Gain</sigName>
-              <xpcsigName>LAS Calculation /Gain</xpcsigName>
+              <xpcsigName>LAS_Calculation/Gain</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Gain1</sigName>
-              <xpcsigName>LAS Calculation /Gain1</xpcsigName>
+              <xpcsigName>LAS_Calculation/Gain1</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Gain2</sigName>
-              <xpcsigName>LAS Calculation /Gain2</xpcsigName>
+              <xpcsigName>LAS_Calculation/Gain2</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Gain3</sigName>
-              <xpcsigName>LAS Calculation /Gain3</xpcsigName>
+              <xpcsigName>LAS_Calculation/Gain3</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Gain4</sigName>
-              <xpcsigName>LAS Calculation /Gain4</xpcsigName>
+              <xpcsigName>LAS_Calculation/Gain4</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
                 <sigLabel>kite_elev</sigLabel>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
@@ -331,10 +331,10 @@
 			  
               <signal>
               <sigName>Gain5</sigName>
-              <xpcsigName>LAS Calculation /Gain5</xpcsigName>
+              <xpcsigName>LAS_Calculation/Gain5</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
                 <sigLabel>kite_azi</sigLabel>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
@@ -342,110 +342,90 @@
 			  
               <signal>
               <sigName>Multiply</sigName>
-              <xpcsigName>LAS Calculation /Multiply</xpcsigName>
+              <xpcsigName>LAS_Calculation/Multiply</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Multiply1</sigName>
-              <xpcsigName>LAS Calculation /Multiply1</xpcsigName>
+              <xpcsigName>LAS_Calculation/Multiply1</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Mod</sigName>
-              <xpcsigName>LAS Calculation /Mod</xpcsigName>
+              <xpcsigName>LAS_Calculation/Mod</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Mod1</sigName>
-              <xpcsigName>LAS Calculation /Mod1</xpcsigName>
+              <xpcsigName>LAS_Calculation/Mod1</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>ASCII Decode 1</sigName>
-              <xpcsigName>LAS Calculation /ASCII Decode 1</xpcsigName>
+              <xpcsigName>LAS_Calculation/ASCII Decode 1</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>ASCII Decode 4</sigName>
-              <xpcsigName>LAS Calculation /ASCII Decode 4</xpcsigName>
+              <xpcsigName>LAS_Calculation/ASCII Decode 4</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>ASCII Decode 5</sigName>
-              <xpcsigName>LAS Calculation /ASCII Decode 5</xpcsigName>
+              <xpcsigName>LAS_Calculation/ASCII Decode 5</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>ASCII Decode 6</sigName>
-              <xpcsigName>LAS Calculation /ASCII Decode 6</xpcsigName>
+              <xpcsigName>LAS_Calculation/ASCII Decode 6</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
-			  <sigTestPoint>false</sigTestPoint>
-            </signal>
-			  
-			  
-              <signal>
-              <sigName>Add</sigName>
-              <xpcsigName>LAS Calculation /Add</xpcsigName>
-              <sigWidth>1</sigWidth>
-              <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
-			  <sigTestPoint>false</sigTestPoint>
-            </signal>
-			  
-			  
-              <signal>
-              <sigName>Add1</sigName>
-              <xpcsigName>LAS Calculation /Add1</xpcsigName>
-              <sigWidth>1</sigWidth>
-              <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 			  
 			  
               <signal>
               <sigName>Add2</sigName>
-              <xpcsigName>LAS Calculation /Add2</xpcsigName>
+              <xpcsigName>LAS_Calculation/Add2</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
                 <sigLabel>El_deg</sigLabel>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
@@ -453,10 +433,10 @@
 			  
               <signal>
               <sigName>Add3</sigName>
-              <xpcsigName>LAS Calculation /Add3</xpcsigName>
+              <xpcsigName>LAS_Calculation/Add3</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
                 <sigLabel>Az_deg</sigLabel>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
@@ -464,10 +444,10 @@
 			  
               <signal>
               <sigName>Add4</sigName>
-              <xpcsigName>LAS Calculation /Add4</xpcsigName>
+              <xpcsigName>LAS_Calculation/Add4</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
                 <sigLabel>Elevation</sigLabel>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
@@ -475,10 +455,10 @@
 			  
               <signal>
               <sigName>Add5</sigName>
-              <xpcsigName>LAS Calculation /Add5</xpcsigName>
+              <xpcsigName>LAS_Calculation/Add5</xpcsigName>
               <sigWidth>1</sigWidth>
               <sigDim>[1, 1]</sigDim>
-			  <SubSystemName>towTest_dualWinch/LAS Calculation </SubSystemName>
+			  <SubSystemName>towTest_dualWinch/LAS_Calculation</SubSystemName>
 			  <sigTestPoint>false</sigTestPoint>
             </signal>
 

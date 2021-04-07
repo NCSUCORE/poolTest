@@ -135,177 +135,173 @@ xcp.signals(54).symbol =  'towTest_dualWinch_B.ASCIIDecode5';
     
 xcp.signals(55).symbol =  'towTest_dualWinch_B.ASCIIDecode6';
     
-xcp.signals(56).symbol =  'towTest_dualWinch_B.Add_f';
+xcp.signals(56).symbol =  'towTest_dualWinch_B.El_deg';
     
-xcp.signals(57).symbol =  'towTest_dualWinch_B.Add1_a';
+xcp.signals(57).symbol =  'towTest_dualWinch_B.Az_deg';
     
-xcp.signals(58).symbol =  'towTest_dualWinch_B.El_deg';
+xcp.signals(58).symbol =  'towTest_dualWinch_B.Elevation';
     
-xcp.signals(59).symbol =  'towTest_dualWinch_B.Az_deg';
+xcp.signals(59).symbol =  'towTest_dualWinch_B.Add5';
     
-xcp.signals(60).symbol =  'towTest_dualWinch_B.Elevation';
+xcp.signals(60).symbol =  'towTest_dualWinch_B.RateTransition';
     
-xcp.signals(61).symbol =  'towTest_dualWinch_B.Add5';
+xcp.signals(61).symbol =  'towTest_dualWinch_B.RateTransition1';
     
-xcp.signals(62).symbol =  'towTest_dualWinch_B.RateTransition';
+xcp.signals(62).symbol =  'towTest_dualWinch_B.RateTransition2';
     
-xcp.signals(63).symbol =  'towTest_dualWinch_B.RateTransition1';
+xcp.signals(63).symbol =  'towTest_dualWinch_B.RateTransition3';
     
-xcp.signals(64).symbol =  'towTest_dualWinch_B.RateTransition2';
+xcp.signals(64).symbol =  'towTest_dualWinch_B.RateTransition4';
     
-xcp.signals(65).symbol =  'towTest_dualWinch_B.RateTransition3';
+xcp.signals(65).symbol =  'towTest_dualWinch_B.RateTransition5';
     
-xcp.signals(66).symbol =  'towTest_dualWinch_B.RateTransition4';
+xcp.signals(66).symbol =  'towTest_dualWinch_B.RateTransition6';
     
-xcp.signals(67).symbol =  'towTest_dualWinch_B.RateTransition5';
+xcp.signals(67).symbol =  'towTest_dualWinch_B.RateTransition7';
     
-xcp.signals(68).symbol =  'towTest_dualWinch_B.RateTransition6';
+xcp.signals(68).symbol =  'towTest_dualWinch_B.FIFOwrite1_o1';
     
-xcp.signals(69).symbol =  'towTest_dualWinch_B.RateTransition7';
+xcp.signals(69).symbol =  'towTest_dualWinch_B.FIFOwrite1_o2';
     
-xcp.signals(70).symbol =  'towTest_dualWinch_B.FIFOwrite1_o1';
+xcp.signals(70).symbol =  'towTest_dualWinch_B.FIFOwrite2_o1';
     
-xcp.signals(71).symbol =  'towTest_dualWinch_B.FIFOwrite1_o2';
+xcp.signals(71).symbol =  'towTest_dualWinch_B.FIFOwrite2_o2';
     
-xcp.signals(72).symbol =  'towTest_dualWinch_B.FIFOwrite2_o1';
+xcp.signals(72).symbol =  'towTest_dualWinch_B.FIFOwrite3_o1';
     
-xcp.signals(73).symbol =  'towTest_dualWinch_B.FIFOwrite2_o2';
+xcp.signals(73).symbol =  'towTest_dualWinch_B.FIFOwrite3_o2';
     
-xcp.signals(74).symbol =  'towTest_dualWinch_B.FIFOwrite3_o1';
+xcp.signals(74).symbol =  'towTest_dualWinch_B.FIFOwrite4_o1';
     
-xcp.signals(75).symbol =  'towTest_dualWinch_B.FIFOwrite3_o2';
+xcp.signals(75).symbol =  'towTest_dualWinch_B.FIFOwrite4_o2';
     
-xcp.signals(76).symbol =  'towTest_dualWinch_B.FIFOwrite4_o1';
+xcp.signals(76).symbol =  'towTest_dualWinch_B.Clock_k';
     
-xcp.signals(77).symbol =  'towTest_dualWinch_B.FIFOwrite4_o2';
+xcp.signals(77).symbol =  'towTest_dualWinch_B.Divide';
     
-xcp.signals(78).symbol =  'towTest_dualWinch_B.Clock_k';
+xcp.signals(78).symbol =  'towTest_dualWinch_B.Saturation';
     
-xcp.signals(79).symbol =  'towTest_dualWinch_B.Divide';
+xcp.signals(79).symbol =  'towTest_dualWinch_B.Add_j';
     
-xcp.signals(80).symbol =  'towTest_dualWinch_B.Saturation';
+xcp.signals(80).symbol =  'towTest_dualWinch_B.Add1_n';
     
-xcp.signals(81).symbol =  'towTest_dualWinch_B.Add_j';
+xcp.signals(81).symbol =  'towTest_dualWinch_B.Clock_e';
     
-xcp.signals(82).symbol =  'towTest_dualWinch_B.Add1_n';
+xcp.signals(82).symbol =  'towTest_dualWinch_B.Divide_l';
     
-xcp.signals(83).symbol =  'towTest_dualWinch_B.Clock_e';
+xcp.signals(83).symbol =  'towTest_dualWinch_B.Saturation_k';
     
-xcp.signals(84).symbol =  'towTest_dualWinch_B.Divide_l';
+xcp.signals(84).symbol =  'towTest_dualWinch_B.Add_l';
     
-xcp.signals(85).symbol =  'towTest_dualWinch_B.Saturation_k';
+xcp.signals(85).symbol =  'towTest_dualWinch_B.Add1_ns';
     
-xcp.signals(86).symbol =  'towTest_dualWinch_B.Add_l';
+xcp.signals(86).symbol =  'towTest_dualWinch_B.CastToDouble_c';
     
-xcp.signals(87).symbol =  'towTest_dualWinch_B.Add1_ns';
+xcp.signals(87).symbol =  'towTest_dualWinch_B.CastToDouble1';
     
-xcp.signals(88).symbol =  'towTest_dualWinch_B.CastToDouble_c';
+xcp.signals(88).symbol =  'towTest_dualWinch_B.Gain_l';
     
-xcp.signals(89).symbol =  'towTest_dualWinch_B.CastToDouble1';
+xcp.signals(89).symbol =  'towTest_dualWinch_B.Gain1_h';
     
-xcp.signals(90).symbol =  'towTest_dualWinch_B.Gain_l';
+xcp.signals(90).symbol =  'towTest_dualWinch_B.tenRawV';
     
-xcp.signals(91).symbol =  'towTest_dualWinch_B.Gain1_h';
+xcp.signals(91).symbol =  'towTest_dualWinch_B.tenNewton';
     
-xcp.signals(92).symbol =  'towTest_dualWinch_B.tenRawV';
+xcp.signals(92).symbol =  'towTest_dualWinch_B.ASCIIDecode1_l';
     
-xcp.signals(93).symbol =  'towTest_dualWinch_B.tenNewton';
+xcp.signals(93).symbol =  'towTest_dualWinch_B.ASCIIDecode4_b';
     
-xcp.signals(94).symbol =  'towTest_dualWinch_B.ASCIIDecode1_l';
+xcp.signals(94).symbol =  'towTest_dualWinch_B.Add_n';
     
-xcp.signals(95).symbol =  'towTest_dualWinch_B.ASCIIDecode4_b';
+xcp.signals(95).symbol =  'towTest_dualWinch_B.SampleandHold.In';
     
-xcp.signals(96).symbol =  'towTest_dualWinch_B.Add_n';
+xcp.signals(96).symbol =  'towTest_dualWinch_B.SampleandHold1.In';
     
-xcp.signals(97).symbol =  'towTest_dualWinch_B.SampleandHold.In';
+xcp.signals(97).symbol =  'towTest_dualWinch_B.SampleandHold_g.In';
     
-xcp.signals(98).symbol =  'towTest_dualWinch_B.SampleandHold1.In';
+xcp.signals(98).symbol =  'towTest_dualWinch_B.SampleandHold1_i.In';
     
-xcp.signals(99).symbol =  'towTest_dualWinch_B.SampleandHold_g.In';
+xcp.signals(99).symbol =  'towTest_dualWinch_B.Clock';
     
-xcp.signals(100).symbol =  'towTest_dualWinch_B.SampleandHold1_i.In';
+xcp.signals(100).symbol =  'towTest_dualWinch_B.uib1';
     
-xcp.signals(101).symbol =  'towTest_dualWinch_B.Clock';
+xcp.signals(101).symbol =  'towTest_dualWinch_B.uDLookupTable';
     
-xcp.signals(102).symbol =  'towTest_dualWinch_B.uib1';
+xcp.signals(102).symbol =  'towTest_dualWinch_B.MathFunction';
     
-xcp.signals(103).symbol =  'towTest_dualWinch_B.uDLookupTable';
+xcp.signals(103).symbol =  'towTest_dualWinch_B.Add1';
     
-xcp.signals(104).symbol =  'towTest_dualWinch_B.MathFunction';
+xcp.signals(104).symbol =  'towTest_dualWinch_B.Add3';
     
-xcp.signals(105).symbol =  'towTest_dualWinch_B.Add1';
+xcp.signals(105).symbol =  'towTest_dualWinch_B.UnitDelay';
     
-xcp.signals(106).symbol =  'towTest_dualWinch_B.Add3';
+xcp.signals(106).symbol =  'towTest_dualWinch_B.Clock_kt';
     
-xcp.signals(107).symbol =  'towTest_dualWinch_B.UnitDelay';
+xcp.signals(107).symbol =  'towTest_dualWinch_B.uib1_f';
     
-xcp.signals(108).symbol =  'towTest_dualWinch_B.Clock_kt';
+xcp.signals(108).symbol =  'towTest_dualWinch_B.uDLookupTable_f';
     
-xcp.signals(109).symbol =  'towTest_dualWinch_B.uib1_f';
+xcp.signals(109).symbol =  'towTest_dualWinch_B.MathFunction_m';
     
-xcp.signals(110).symbol =  'towTest_dualWinch_B.uDLookupTable_f';
+xcp.signals(110).symbol =  'towTest_dualWinch_B.Add1_n4';
     
-xcp.signals(111).symbol =  'towTest_dualWinch_B.MathFunction_m';
+xcp.signals(111).symbol =  'towTest_dualWinch_B.Add3_e';
     
-xcp.signals(112).symbol =  'towTest_dualWinch_B.Add1_n4';
+xcp.signals(112).symbol =  'towTest_dualWinch_B.UnitDelay_d';
     
-xcp.signals(113).symbol =  'towTest_dualWinch_B.Add3_e';
+xcp.signals(113).symbol =  'towTest_dualWinch_B.LogicalOperator';
     
-xcp.signals(114).symbol =  'towTest_dualWinch_B.UnitDelay_d';
+xcp.signals(114).symbol =  'towTest_dualWinch_B.RelationalOperator';
     
-xcp.signals(115).symbol =  'towTest_dualWinch_B.LogicalOperator';
+xcp.signals(115).symbol =  'towTest_dualWinch_B.FIFOread1_o1';
     
-xcp.signals(116).symbol =  'towTest_dualWinch_B.RelationalOperator';
+xcp.signals(116).symbol =  'towTest_dualWinch_B.FIFOread1_o2';
     
-xcp.signals(117).symbol =  'towTest_dualWinch_B.FIFOread1_o1';
+xcp.signals(117).symbol =  'towTest_dualWinch_B.FIFOread2_o1';
     
-xcp.signals(118).symbol =  'towTest_dualWinch_B.FIFOread1_o2';
+xcp.signals(118).symbol =  'towTest_dualWinch_B.FIFOread2_o2';
     
-xcp.signals(119).symbol =  'towTest_dualWinch_B.FIFOread2_o1';
+xcp.signals(119).symbol =  'towTest_dualWinch_B.FIFOread3_o1';
     
-xcp.signals(120).symbol =  'towTest_dualWinch_B.FIFOread2_o2';
+xcp.signals(120).symbol =  'towTest_dualWinch_B.FIFOread3_o2';
     
-xcp.signals(121).symbol =  'towTest_dualWinch_B.FIFOread3_o1';
+xcp.signals(121).symbol =  'towTest_dualWinch_B.FIFOread4_o1';
     
-xcp.signals(122).symbol =  'towTest_dualWinch_B.FIFOread3_o2';
+xcp.signals(122).symbol =  'towTest_dualWinch_B.FIFOread4_o2';
     
-xcp.signals(123).symbol =  'towTest_dualWinch_B.FIFOread4_o1';
+xcp.signals(123).symbol =  'towTest_dualWinch_B.FIFOwrite1';
     
-xcp.signals(124).symbol =  'towTest_dualWinch_B.FIFOread4_o2';
+xcp.signals(124).symbol =  'towTest_dualWinch_B.FIFOwrite2';
     
-xcp.signals(125).symbol =  'towTest_dualWinch_B.FIFOwrite1';
+xcp.signals(125).symbol =  'towTest_dualWinch_B.FIFOwrite3';
     
-xcp.signals(126).symbol =  'towTest_dualWinch_B.FIFOwrite2';
+xcp.signals(126).symbol =  'towTest_dualWinch_B.FIFOwrite4';
     
-xcp.signals(127).symbol =  'towTest_dualWinch_B.FIFOwrite3';
+xcp.signals(127).symbol =  'towTest_dualWinch_B.IntSourceFilterReadv31';
     
-xcp.signals(128).symbol =  'towTest_dualWinch_B.FIFOwrite4';
+xcp.signals(128).symbol =  'towTest_dualWinch_B.IntSourceFilterReadv32';
     
-xcp.signals(129).symbol =  'towTest_dualWinch_B.IntSourceFilterReadv31';
+xcp.signals(129).symbol =  'towTest_dualWinch_B.IntSourceFilterReadv33';
     
-xcp.signals(130).symbol =  'towTest_dualWinch_B.IntSourceFilterReadv32';
+xcp.signals(130).symbol =  'towTest_dualWinch_B.IntSourceFilterReadv34';
     
-xcp.signals(131).symbol =  'towTest_dualWinch_B.IntSourceFilterReadv33';
+xcp.signals(131).symbol =  'towTest_dualWinch_B.IntSourceFilterWritev31';
     
-xcp.signals(132).symbol =  'towTest_dualWinch_B.IntSourceFilterReadv34';
+xcp.signals(132).symbol =  'towTest_dualWinch_B.IntSourceFilterWritev32';
     
-xcp.signals(133).symbol =  'towTest_dualWinch_B.IntSourceFilterWritev31';
+xcp.signals(133).symbol =  'towTest_dualWinch_B.IntSourceFilterWritev33';
     
-xcp.signals(134).symbol =  'towTest_dualWinch_B.IntSourceFilterWritev32';
+xcp.signals(134).symbol =  'towTest_dualWinch_B.IntSourceFilterWritev34';
     
-xcp.signals(135).symbol =  'towTest_dualWinch_B.IntSourceFilterWritev33';
+xcp.signals(135).symbol =  'towTest_dualWinch_B.ReadHWFIFOv31';
     
-xcp.signals(136).symbol =  'towTest_dualWinch_B.IntSourceFilterWritev34';
+xcp.signals(136).symbol =  'towTest_dualWinch_B.ReadHWFIFOv32';
     
-xcp.signals(137).symbol =  'towTest_dualWinch_B.ReadHWFIFOv31';
+xcp.signals(137).symbol =  'towTest_dualWinch_B.ReadHWFIFOv33';
     
-xcp.signals(138).symbol =  'towTest_dualWinch_B.ReadHWFIFOv32';
+xcp.signals(138).symbol =  'towTest_dualWinch_B.ReadHWFIFOv34';
     
-xcp.signals(139).symbol =  'towTest_dualWinch_B.ReadHWFIFOv33';
-    
-xcp.signals(140).symbol =  'towTest_dualWinch_B.ReadHWFIFOv34';
-    
-xcp.signals(141).symbol =  'towTest_dualWinch_B.ReadIntStatusv3';
+xcp.signals(139).symbol =  'towTest_dualWinch_B.ReadIntStatusv3';
          
 xcp.parameters(1).symbol = 'towTest_dualWinch_P.ConstantSP_Value';
 xcp.parameters(1).size   =  1;       
@@ -817,10 +813,10 @@ xcp.parameters(102).size   =  1;
 xcp.parameters(102).dtname = 'real_T'; 
 xcp.parameters(103).baseaddr = '&towTest_dualWinch_P.Switch3_Threshold';     
          
-xcp.parameters(103).symbol = 'towTest_dualWinch_P.Azimuthoffset_Value';
+xcp.parameters(103).symbol = 'towTest_dualWinch_P.Az_deg_calib_Value';
 xcp.parameters(103).size   =  1;       
 xcp.parameters(103).dtname = 'real_T'; 
-xcp.parameters(104).baseaddr = '&towTest_dualWinch_P.Azimuthoffset_Value';     
+xcp.parameters(104).baseaddr = '&towTest_dualWinch_P.Az_deg_calib_Value';     
          
 xcp.parameters(104).symbol = 'towTest_dualWinch_P.Constant_Value_h';
 xcp.parameters(104).size   =  1;       
@@ -842,10 +838,10 @@ xcp.parameters(107).size   =  1;
 xcp.parameters(107).dtname = 'real_T'; 
 xcp.parameters(108).baseaddr = '&towTest_dualWinch_P.Constant3_Value_l';     
          
-xcp.parameters(108).symbol = 'towTest_dualWinch_P.Elevationoffset_Value';
+xcp.parameters(108).symbol = 'towTest_dualWinch_P.El_deg_calib_Value';
 xcp.parameters(108).size   =  1;       
 xcp.parameters(108).dtname = 'real_T'; 
-xcp.parameters(109).baseaddr = '&towTest_dualWinch_P.Elevationoffset_Value';     
+xcp.parameters(109).baseaddr = '&towTest_dualWinch_P.El_deg_calib_Value';     
          
 xcp.parameters(109).symbol = 'towTest_dualWinch_P.Gain_Gain';
 xcp.parameters(109).size   =  1;       
@@ -2151,7 +2147,7 @@ function n = getNumParameters
 n = 368;
 
 function n = getNumSignals
-n = 141;
+n = 139;
 
 function n = getNumEvents
 n = 4;
