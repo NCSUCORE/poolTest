@@ -1,5 +1,4 @@
 stopCallback
-LAScalTimeLen = 60
 Az_calib = str2num(get_param(['towTest_dualWinch/LAS_Calculation','/Az_deg_calib'],'Value'))
 El_calib = str2num(get_param(['towTest_dualWinch/LAS_Calculation','/El_deg_calib'],'Value'))
 get_param(['towTest_dualWinch/LAS_Calculation','/Az_deg_calib'],'Value')
