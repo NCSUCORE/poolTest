@@ -1,0 +1,3 @@
+[submodule "DoEOceanKiteProject"]
+	path = DoEOceanKiteProject
+	url = https://github.com/NCSUCORE/DoEOceanKiteProject.git
