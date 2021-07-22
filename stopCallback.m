@@ -18,7 +18,7 @@ function stopCallback()
 fprintf('\nRunning %s.m\n',mfilename)
 
 
-% Navigate to output directory
+% Navigate to output directorygit sta
 workDir = fullfile(fileparts(which('towTest_dualWinch.slx')));                      % ---CHANGE---
 
 % Set directory to output folder
