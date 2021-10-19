@@ -5,8 +5,11 @@ load('sStarTable.mat')
 fpath = fullfile(fileparts(which('OCTProject.prj')),...
     'vehicleDesign\Tether\Tension\');
 loadComponent('pathFollowCtrlExp');
-loadComponent('Manta2RotXFoil_AR8_b8_exp2'); 
+loadComponent('poolScaleKiteAbney');
+loadComponent('poolTether')
 loadComponent('constBoothLem');
 loadComponent('ConstXYZT');
-
+loadComponent('raftGroundStation')
+loadComponent('constXYZT')
+fltCtrl.initPathVar.setValue(0,'')
 
