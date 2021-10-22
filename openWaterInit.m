@@ -13,5 +13,18 @@ loadComponent('raftGroundStation');
 loadComponent('constXYZT');
 fltCtrl.initPathVar.setValue(0,'')
 FLIGHTCONTROLLER = 'takeoffToLanding'
-pathEnable = 1;
 
+
+vhcl.stbdWing.setGainCL(vhcl.stbdWing.gainCL.Value/8,'1/deg');
+vhcl.portWing.setGainCL(vhcl.portWing.gainCL.Value/8,'1/deg');
+vhcl.stbdWing.setGainCD(vhcl.stbdWing.gainCD.Value/8,'1/deg');
+vhcl.portWing.setGainCD(vhcl.portWing.gainCD.Value/8,'1/deg');
+vhcl.vStab.setGainCL(vhcl.vStab.gainCL.Value/2,'1/deg');
+vhcl.vStab.setGainCD(vhcl.vStab.gainCD.Value/2,'1/deg');
+loadComponent('jamesMultiCycleExp');
+fltCtrl.initPathVar.setValue(0,'')
+fltCtrl.rollAmp.setValue(60,'deg');
+fltCtrl.yawAmp.setValue(80,'deg');
+% fltCtrl.period.setValue(10,'s');
+fltCtrl.rollPhase.setValue(-pi/2,'rad');
+fltCtrl.yawPhase.setValue(-pi/2,'rad');
