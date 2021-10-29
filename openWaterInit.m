@@ -12,7 +12,7 @@ loadComponent('ConstXYZT');
 loadComponent('raftGroundStation');
 loadComponent('constXYZT');
 fltCtrl.initPathVar.setValue(0,'')
-FLIGHTCONTROLLER = 'takeoffToLanding'
+FLIGHTCONTROLLER = 'takeoffToLandingOpenWater';
 
 
 vhcl.stbdWing.setGainCL(vhcl.stbdWing.gainCL.Value/8,'1/deg');
